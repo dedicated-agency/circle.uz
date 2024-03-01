@@ -35,7 +35,7 @@ export default function Home(): JSX.Element {
               </Translate>
             </p>
             <div className={styles.text_buttons}>
-              <button className={styles.text_buttons_explore}>
+              <a href="/docs/intro" className={styles.text_buttons_explore}>
                 <Translate>Explore</Translate>
                 <svg
                   width="20"
@@ -53,8 +53,12 @@ export default function Home(): JSX.Element {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </button>
-              <a href="#" className={styles.text_buttons_join}>
+              </a>
+              <a
+                target="_blank"
+                href="https://t.me/circleuz"
+                className={styles.text_buttons_join}
+              >
                 <Translate>Join our community</Translate>
                 <svg
                   width="20"
@@ -243,7 +247,11 @@ export default function Home(): JSX.Element {
                 skills with our open source file. We provide the opportunity
               </Translate>
             </p>
-            <button className={styles.community_button}>
+            <a
+              target="_blank"
+              href="https://t.me/circleuz"
+              className={styles.community_button}
+            >
               <Translate>Join the community</Translate>
               <svg
                 width="20"
@@ -261,7 +269,7 @@ export default function Home(): JSX.Element {
                   strokeLinejoin="round"
                 />
               </svg>
-            </button>
+            </a>
           </section>
           <section className={styles.markt}>
             <div className={styles.markt_text}>

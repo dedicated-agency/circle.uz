@@ -60,9 +60,13 @@ export default function Navbar({ isBlack }: Props) {
         </a>
 
         <div className={styles.container}>
-          <p className={styles.title}>
+          <a
+            target="_blank"
+            href="https://t.me/circleuz"
+            className={styles.title}
+          >
             <Translate>Join our community</Translate>
-          </p>
+          </a>
           <button onClick={handleGetStart} className={styles.btn}>
             <p>
               <Translate>Get started</Translate>
