@@ -1,5 +1,6 @@
 import React from "react";
 import styles from "./navbar.module.css";
+import Translate from "@docusaurus/Translate";
 interface Props {
   isBlack: boolean;
 }
@@ -43,9 +44,13 @@ export default function Navbar({ isBlack }: Props) {
           />
         </svg>
         <div className={styles.container}>
-          <p className={styles.title}>Join our community</p>
+          <p className={styles.title}>
+            <Translate>Join our community</Translate>
+          </p>
           <button className={styles.btn}>
-            <p>Get started</p>
+            <p>
+              <Translate>Get started</Translate>
+            </p>
           </button>
         </div>
       </div>
