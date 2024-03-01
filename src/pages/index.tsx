@@ -6,24 +6,34 @@ import designFile2 from "../../static/img/designFile2.png";
 import challange1 from "../../static/img/challange1.png";
 import challange2 from "../../static/img/challange2.png";
 import marktImage from "../../static/img/marktImage.png";
+import Navbar from "../components/navbar";
+import { useInView } from "react-intersection-observer";
+import Footer from "../components/footer";
+import Translate from "@docusaurus/Translate";
 
 export default function Home(): JSX.Element {
+  const { ref, inView, entry } = useInView({
+    threshold: 0.2,
+  });
   const { siteConfig } = useDocusaurusContext();
   return (
     <div className={styles.body_wrapper}>
-      <div className={styles.banner}>
+      <Navbar isBlack={!inView} />
+      <div ref={ref} className={styles.banner}>
         <section className={styles.container}>
           <div className={styles.text}>
             <h1 className={styles.text_title}>
-              Make your coding skills better
+              <Translate>Make your coding skills better</Translate>
             </h1>
             <p className={styles.text_description}>
-              We provide the opportunity to significantly improve your coding
-              skills with our open source file
+              <Translate>
+                We provide the opportunity to significantly improve your coding
+                skills with our open source file
+              </Translate>
             </p>
             <div className={styles.text_buttons}>
               <button className={styles.text_buttons_explore}>
-                Explore
+                <Translate>Explore</Translate>
                 <svg
                   width="20"
                   height="20"
@@ -42,7 +52,7 @@ export default function Home(): JSX.Element {
                 </svg>
               </button>
               <a href="#" className={styles.text_buttons_join}>
-                Join our community
+                <Translate>Join our community</Translate>
                 <svg
                   width="20"
                   height="20"
@@ -64,11 +74,13 @@ export default function Home(): JSX.Element {
       <div className={styles.main_wrapper}>
         <div className={styles.container}>
           <section>
-            <h2 className={styles.title}>How does it work?</h2>
+            <h2 className={styles.title}>
+              <Translate>How does it work?</Translate>
+            </h2>
             <div className={styles.design}>
               <div className={styles.design_text}>
                 <p className={styles.design_text_title}>
-                  Design file
+                  <Translate>Design file</Translate>
                   <svg
                     width="32"
                     height="32"
@@ -87,43 +99,51 @@ export default function Home(): JSX.Element {
                   </svg>
                 </p>
                 <p className={styles.design_text_description}>
-                  We provide the opportunity to significantly improve your
-                  coding skills with our open source file. We provide the
-                  opportunity to significantly improve your coding skills with
-                  our open source file.
+                  <Translate>
+                    We provide the opportunity to significantly improve your
+                    coding skills with our open source file. We provide the
+                    opportunity to significantly improve your coding skills with
+                    our open source file.
+                  </Translate>
                 </p>
                 <p className={styles.design_text_description}>
-                  We provide the opportunity to significantly improve your
-                  coding skills with our open source file. We provide the
-                  opportunity to significantly improve your coding skills with
-                  our open source file.
+                  <Translate>
+                    We provide the opportunity to significantly improve your
+                    coding skills with our open source file. We provide the
+                    opportunity to significantly improve your coding skills with
+                    our open source file.
+                  </Translate>
                 </p>
                 <div className={styles.design_text_buttons}>
                   <button className={styles.design_text_buttons_btn}>
-                    Web
+                    <Translate>Web</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    MobileWeb
+                    <Translate>MobileWeb</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    Components
+                    <Translate>Components</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    Dark theme
+                    <Translate>Dark theme</Translate>
                   </button>
                 </div>
               </div>
               <div className={styles.design_image}>
-                <img
-                  className={styles.design_image_top}
-                  src={designFile1}
-                  alt="design files image"
-                />
-                <img
-                  className={styles.design_image_bottom}
-                  src={designFile2}
-                  alt="design files image"
-                />
+                <div className={styles.design_image_top}>
+                  <img
+                    className={styles.design_image_top_img}
+                    src={designFile1}
+                    alt="design files image"
+                  />
+                </div>
+                <div className={styles.design_image_bottom}>
+                  <img
+                    className={styles.design_image_bottom_img}
+                    src={designFile2}
+                    alt="design files image"
+                  />
+                </div>
               </div>
             </div>
           </section>
@@ -146,7 +166,7 @@ export default function Home(): JSX.Element {
             </div>
             <div className={styles.challange_text}>
               <p className={styles.challange_text_title}>
-                Challanges on platform
+                <Translate>Challanges on platform</Translate>
                 <svg
                   width="32"
                   height="33"
@@ -166,36 +186,40 @@ export default function Home(): JSX.Element {
                 </svg>
               </p>
               <p className={styles.challange_text_description}>
-                We provide the opportunity to significantly improve your coding
-                skills with our open source file. We provide the opportunity to
-                significantly improve your coding skills with our open source
-                file.
+                <Translate>
+                  We provide the opportunity to significantly improve your
+                  coding skills with our open source file. We provide the
+                  opportunity to significantly improve your coding skills with
+                  our open source file.
+                </Translate>
               </p>
               <p className={styles.challange_text_description}>
-                We provide the opportunity to significantly improve your coding
-                skills with our open source file. We provide the opportunity to
-                significantly improve your coding skills with our open source
-                file.
+                <Translate>
+                  We provide the opportunity to significantly improve your
+                  coding skills with our open source file. We provide the
+                  opportunity to significantly improve your coding skills with
+                  our open source file.
+                </Translate>
               </p>
               <div className={styles.challange_text_buttons}>
                 <button className={styles.challange_text_buttons_btn}>
-                  Web
+                  <Translate>Web</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  MobileWeb
+                  <Translate>MobileWeb</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  Components
+                  <Translate>Components</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  Dark theme
+                  <Translate>Dark theme</Translate>
                 </button>
               </div>
             </div>
           </section>
           <section className={styles.community}>
             <h3 className={styles.community_title}>
-              Community
+              <Translate>Community</Translate>
               <svg
                 width="32"
                 height="32"
@@ -211,11 +235,13 @@ export default function Home(): JSX.Element {
               </svg>
             </h3>
             <p className={styles.community_description}>
-              We provide the opportunity to significantly improve your coding
-              skills with our open source file. We provide the opportunity
+              <Translate>
+                We provide the opportunity to significantly improve your coding
+                skills with our open source file. We provide the opportunity
+              </Translate>
             </p>
             <button className={styles.community_button}>
-              Join the community
+              <Translate>Join the community</Translate>
               <svg
                 width="20"
                 height="20"
@@ -234,21 +260,30 @@ export default function Home(): JSX.Element {
               </svg>
             </button>
           </section>
-
           <section className={styles.markt}>
             <div className={styles.markt_text}>
-              <p className={styles.markt_text_title}>Markt 2.0</p>
+              <p className={styles.markt_text_title}>
+                <Translate>Markt 2.0</Translate>
+              </p>
               <p className={styles.markt_text_description}>
-                E - commerce project{" "}
+                <Translate>E - commerce project</Translate>
               </p>
               <ol className={styles.markt_text_list}>
-                <li className={styles.markt_text_list_item}>UI Design</li>
-                <li className={styles.markt_text_list_item}>MobileWeb</li>
-                <li className={styles.markt_text_list_item}>Style Guide</li>
-                <li className={styles.markt_text_list_item}>Compinents</li>
+                <li className={styles.markt_text_list_item}>
+                  <Translate>UI Design</Translate>
+                </li>
+                <li className={styles.markt_text_list_item}>
+                  <Translate>MobileWeb</Translate>
+                </li>
+                <li className={styles.markt_text_list_item}>
+                  <Translate>Style Guide</Translate>
+                </li>
+                <li className={styles.markt_text_list_item}>
+                  <Translate>Compinents</Translate>
+                </li>
               </ol>
-              <button className={styles.markt_text_button}>
-                About project
+              <a href="/project" className={styles.markt_text_button}>
+                <Translate>About project</Translate>
                 <svg
                   width="20"
                   height="21"
@@ -265,17 +300,20 @@ export default function Home(): JSX.Element {
                     strokeLinejoin="round"
                   />
                 </svg>
-              </button>
+              </a>
             </div>
           </section>
-
           <section className={styles.questions}>
-            <h4 className={styles.questions_title}>Have any questions?</h4>
+            <h4 className={styles.questions_title}>
+              <Translate>Have any questions?</Translate>
+            </h4>
             <p className={styles.questions_description}>
-              If you have any questions, we are glad to answer them 👋
+              <Translate>
+                If you have any questions, we are glad to answer them 👋
+              </Translate>
             </p>
             <button className={styles.questions_button}>
-              Type in telegram
+              <Translate>Type in telegram</Translate>
               <svg
                 width="23"
                 height="21"
@@ -292,6 +330,7 @@ export default function Home(): JSX.Element {
             </button>
           </section>
         </div>
+        <Footer />
       </div>
     </div>
   );

@@ -6,7 +6,9 @@
   border-top: 1px solid #eaf4f4;
 }
 .inner {
-  max-width: 1200px;
+  max-width: 1224px;
+  padding-right: 12px;
+  padding-left: 12px;
   width: 100%;
   display: flex;
   justify-content: space-between;
