@@ -1,7 +1,26 @@
+// {
+//   // This file is not used in compilation. It is here just for a nice editor experience.
+//   "extends": "@docusaurus/tsconfig",
+//   "compilerOptions": {
+//     "baseUrl": "./",
+//     "paths": {
+//       "@static*": ["/static"],
+//       "@pages":["/src/pages"],
+//       "@components*": ["./src/components*"],
+//       "@images*":["./static/img"]
+//     }
+//   }
+// }
+// S
 {
-  // This file is not used in compilation. It is here just for a nice editor experience.
-  "extends": "@docusaurus/tsconfig",
+  "extends": "@tsconfig/docusaurus/tsconfig.json",
   "compilerOptions": {
-    "baseUrl": "."
+    "baseUrl": ".",
+    //     "paths": {
+    //   "@static*": ["/static"],
+    //   "@pages":["/src/pages"],
+    //   "@components*": ["./src/components*"],
+    //   "@images*":["./static/img"]
+    // }
   }
 }
