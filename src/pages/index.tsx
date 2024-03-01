@@ -156,16 +156,20 @@ export default function Home(): JSX.Element {
           </section>
           <section className={styles.challange}>
             <div className={styles.challange_image}>
-              <img
-                className={styles.challange_image_top}
-                src={challange2}
-                alt="challange files image"
-              />
-              <img
-                className={styles.challange_image_bottom}
-                src={challange1}
-                alt="challange files image"
-              />
+              <div className={styles.challange_image_top}>
+                <img
+                  className={styles.challange_image_top_img}
+                  src={challange2}
+                  alt="challange files image"
+                />
+              </div>
+              <div className={styles.challange_image_bottom}>
+                <img
+                  className={styles.challange_image_bottom_img}
+                  src={challange1}
+                  alt="challange files image"
+                />
+              </div>
             </div>
             <div className={styles.challange_text}>
               <p className={styles.challange_text_title}>
