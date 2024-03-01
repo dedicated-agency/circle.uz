@@ -387,7 +387,7 @@
   line-height: 160%; /* 28.8px */
 }
 .questions_button {
-  display: flex;
+  display: inline-flex;
   padding: 18px 32px;
   align-items: center;
   margin-right: auto;
@@ -400,6 +400,7 @@
   font-weight: 500;
   line-height: 140%; /* 25.2px */
   letter-spacing: -1px;
+  margin-top: 32px;
 }
 .questions_button_icon {
   margin-left: 12px;
