@@ -21,9 +21,14 @@ export default function Footer({ isWhite }: Props) {
       <div className={styles.inner}>
         <div className={styles.routes}>
           {routes.map((item, index) => (
-            <p className={styles.route} key={index}>
+            <a
+              target="_blank"
+              href="https://t.me/circleuz"
+              className={styles.route}
+              key={index}
+            >
               {item.title}
-            </p>
+            </a>
           ))}
         </div>
         <p className={styles.company}>©2024 Circle Academy</p>

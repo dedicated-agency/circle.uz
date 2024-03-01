@@ -277,7 +277,7 @@
     --gradient,
     linear-gradient(113deg, #01161e 0.62%, #080809 76.96%)
   );
-  display: flex;
+  display: inline-flex;
   padding: 12px 12px 12px 24px;
   align-items: center;
   color: var(--white, #fff);
