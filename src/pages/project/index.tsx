@@ -1,13 +1,18 @@
-import React, { useEffect, useRef, useState } from "react";
+import React from "react";
 import styles from "./project.module.css";
+//@ts-ignore
 import banner1 from "../../../static/img/banner1.png";
 import Banner from "../../components/banner/index";
+//@ts-ignore
 import banner2 from "../../../static/img/banner2.png";
+//@ts-ignore
 import banner3 from "../../../static/img/banner3.png";
+//@ts-ignore
 import startProject from "../../../static/img/startProject.png";
 import Navbar from "../../components/navbar";
 import { useInView } from "react-intersection-observer";
 import Footer from "../../components/footer";
+import Translate from "@docusaurus/Translate";
 export default function Project() {
   const { ref, inView, entry } = useInView({
     threshold: 0,
@@ -18,10 +23,9 @@ export default function Project() {
   return (
     <div className={styles.root}>
       <Navbar isBlack={!inView} />
-
       <header ref={ref} className={styles.header}>
         <h1 className={styles.title}>
-          We provide the opportunity to significantly
+          <Translate>We provide the opportunity to significantly</Translate>
         </h1>
       </header>
       <main className={styles.main}>
@@ -31,20 +35,22 @@ export default function Project() {
             <section className={styles.articles}>
               <div className={styles.article}>
                 <div className={styles.articleContainer}>
-                  <h3 className={styles.artcleTitle}>About</h3>
+                  <h3 className={styles.artcleTitle}>
+                    <Translate>About</Translate>
+                  </h3>
                   <p className={styles.artcleDescription}>
-                    <p>
+                    <Translate>
                       We provide the opportunity to significantly improve your
                       coding skills with our open source file. We provide the
                       opportunity to significantly improve your coding skills
                       with our open source file.
-                    </p>
-                    <p>
+                    </Translate>
+                    <Translate>
                       We provide the opportunity to significantly improve your
                       coding skills with our open source file. We provide the
                       opportunity to significantly improve your coding skills
                       with our open source file.
-                    </p>
+                    </Translate>
                   </p>
                 </div>
                 <Banner image={banner2} />
@@ -53,18 +59,18 @@ export default function Project() {
                 <div className={styles.articleContainer}>
                   <h3 className={styles.artcleTitle}>Tech spec</h3>
                   <p className={styles.artcleDescription}>
-                    <p>
+                    <Translate>
                       We provide the opportunity to significantly improve your
                       coding skills with our open source file. We provide the
                       opportunity to significantly improve your coding skills
                       with our open source file.
-                    </p>
-                    <p>
+                    </Translate>
+                    <Translate>
                       We provide the opportunity to significantly improve your
                       coding skills with our open source file. We provide the
                       opportunity to significantly improve your coding skills
                       with our open source file.
-                    </p>
+                    </Translate>
                   </p>
                 </div>
                 <div className={styles.articleBanners}>
@@ -76,26 +82,32 @@ export default function Project() {
                   </div>
                 </div>
                 <p className={styles.artcleDescription}>
-                  <p>
+                  <Translate>
                     We provide the opportunity to significantly improve your
                     coding skills with our open source file. We provide the
                     opportunity to significantly improve your coding skills with
                     our open source file.
-                  </p>
-                  <p>
+                  </Translate>
+                  <Translate>
                     We provide the opportunity to significantly improve your
                     coding skills with our open source file. We provide the
                     opportunity to significantly improve your coding skills with
                     our open source file.
-                  </p>
+                  </Translate>
                 </p>
               </div>
             </section>
           </section>
           <section className={styles.startProject}>
             <div className={styles.startProjectHeader}>
-              <h2>Start project</h2>
-              <p>You can start project as a FrontEnd or BackEnd developer.</p>
+              <h2>
+                <Translate>Start project</Translate>
+              </h2>
+              <p>
+                <Translate>
+                  You can start project as a FrontEnd or BackEnd developer.
+                </Translate>
+              </p>
             </div>
 
             <div className={styles.projects}>
@@ -111,7 +123,9 @@ export default function Project() {
                     >
                       <circle cx="6" cy="6" r="6" fill="#07059A" />
                     </svg>
-                    <p className={styles.projectTitle}>Frontend</p>
+                    <p className={styles.projectTitle}>
+                      <Translate>Frontend</Translate>
+                    </p>
                   </div>
                   <div className={styles.inActiveSwitch}>
                     <svg
@@ -124,22 +138,24 @@ export default function Project() {
                       <circle cx="6" cy="6" r="6" fill="#D8E2DC" />
                     </svg>
                     <p className={styles.inActiveProjectTitle}>
-                      Backend (soon)
+                      <Translate> Backend (soon)</Translate>
                     </p>
                   </div>
                 </div>
                 <div className={styles.projectsLeftContainer}>
                   <h5 className={styles.projectsLeftContainerTitle}>
-                    Frontend
+                    <Translate>Frontend</Translate>
                   </h5>
                   <p className={styles.projectsLeftContainerText}>
-                    We provide the opportunity to significantly improve your
-                    coding skills with our open source file. We provide the
-                    opportunity to significantly improve your coding skills with
-                    our open source file. We provide the opportunity to
-                    significantly improve your coding skills with our open
-                    source file. We provide the opportunity to significantly
-                    improve your coding skills with our open source file
+                    <Translate>
+                      We provide the opportunity to significantly improve your
+                      coding skills with our open source file. We provide the
+                      opportunity to significantly improve your coding skills
+                      with our open source file. We provide the opportunity to
+                      significantly improve your coding skills with our open
+                      source file. We provide the opportunity to significantly
+                      improve your coding skills with our open source file
+                    </Translate>
                   </p>
                 </div>
                 <button
@@ -156,11 +172,19 @@ export default function Project() {
           </section>
           <section className={styles.contacts}>
             <div className={styles.contactsContainer}>
-              <h3>Have any questions?</h3>
-              <p>If you have any questions, we are glad to answer them 👋</p>
+              <h3>
+                <Translate>Have any questions?</Translate>
+              </h3>
+              <p>
+                <Translate>
+                  If you have any questions, we are glad to answer them 👋
+                </Translate>
+              </p>
             </div>
             <a href="#" className={styles.contactsBtn}>
-              <p>Type in telegram</p>
+              <p>
+                <Translate>Type in telegram</Translate>
+              </p>
               <svg
                 xmlns="http://www.w3.org/2000/svg"
                 width="23"
@@ -177,7 +201,7 @@ export default function Project() {
           </section>
         </div>
       </main>
-      <Footer />
+      <Footer isWhite />
     </div>
   );
 }

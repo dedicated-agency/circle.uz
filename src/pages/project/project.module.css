@@ -1,4 +1,5 @@
 .root {
+  background: linear-gradient(113deg, #080809 0.62%, #0f3945 76.96%), #d9d9d9;
 }
 .header {
   width: 100%;
@@ -23,6 +24,8 @@
   display: flex;
   justify-content: center;
   padding: 100px 0px 200px 0px;
+  border-radius: 25px 25px 0px 0px;
+  background-color: white;
 }
 .container {
   max-width: 1200px;
