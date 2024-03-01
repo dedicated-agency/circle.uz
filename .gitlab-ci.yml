@@ -1,0 +1,10 @@
+stages:
+  - deploy
+
+deploy:
+  stage: deploy
+  script:
+    - cd /var/www/circle.uz
+    - git pull
+    - yarn 
+    - yarn build
