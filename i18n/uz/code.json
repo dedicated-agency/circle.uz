@@ -1,66 +1,163 @@
 {
+  "Make your coding skills better": {
+    "message": "Dasturlash ko'nikmangizni yaxshilang"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
+  },
+  "Explore": {
+    "message": "O'rganing"
+  },
+  "Join our community": {
+    "message": "Jamoa bilan qo'shiling"
+  },
+  "How does it work?": {
+    "message": "Bu qanday ishlaydi?"
+  },
+  "Design file": {
+    "message": "Dizayn fayli"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
+    "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz."
+  },
+  "Web": {
+    "message": "Veb"
+  },
+  "MobileWeb": {
+    "message": "Mobil Veb"
+  },
+  "Components": {
+    "message": "Komponentlar"
+  },
+  "Dark theme": {
+    "message": "Qora mavzusi"
+  },
+  "Challenges on platform": {
+    "message": "Platformadagi chellendjlar"
+  },
+  "Community": {
+    "message": "Jamoa"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity": {
+    "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz."
+  },
+  "Join the community": {
+    "message": "Jamoa bilan qo'shiling"
+  },
+  "Markt 2.0": {
+    "message": "Markt 2.0"
+  },
+  "E-commerce project": {
+    "message": "E-tijorat loyihasi"
+  },
+  "UI Design": {
+    "message": "UI Dizayni"
+  },
+  "Style Guide": {
+    "message": "Usul Qo'riqnomasi"
+  },
+
+  "About project": {
+    "message": "Loyiha haqida"
+  },
+  "Have any questions?": {
+    "message": "Savollar bormi?"
+  },
+  "If you have any questions, we are glad to answer them 👋": {
+    "message": "Agar sizda savollar bo'lsa, ularni javoblashdan mamnun bo'lamiz 👋"
+  },
+  "Type in telegram": {
+    "message": "Telegramda yozing"
+  },
+  "Get started": {
+    "message": "Boshlang"
+  },
+  "Help": {
+    "message": "Yordam"
+  },
+  "About": {
+    "message": "Haqida"
+  },
+  "Contacts": {
+    "message": "Aloqa"
+  },
+  "Socials": {
+    "message": "Ijtimoiy tarmoqlar"
+  },
   "We provide the opportunity to significantly": {
-    "message": "Biz katta imkoniyatlar taqdim etamiz"
+    "message": "Biz aniq imkoniyatni taqdim qilamiz"
+  },
+  "Start project": {
+    "message": "Loyiha boshlash"
+  },
+  "You can start the project as a FrontEnd or BackEnd developer.": {
+    "message": "Siz loyiha FrontEnd yoki BackEnd dasturchisi sifatida boshlashingiz mumkin."
+  },
+  "Frontend": {
+    "message": "Frontend"
+  },
+
+  "Backend (soon)": {
+    "message": "Backend (tez orada)"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
   },
   "theme.ErrorPageContent.title": {
-    "message": "Ushbu sahifa xatolik yuz berdi.",
-    "description": "Sahifa xatolik yuz beryotganida sahifaning qaytarish sahifasining sarlavhasi"
-  },
-  "theme.blog.archive.title": {
-    "message": "Arxiv",
-    "description": "Blog arxiv sahifasining sarlavha va hero sarlavhasi"
-  },
-  "theme.blog.archive.description": {
-    "message": "Arxiv",
-    "description": "Blog arxiv sahifasining sahifa va hero tavsifi"
+    "message": "Ushbu sahifa xatolandi.",
+    "description": "Sahifa xatoga duch kelsa, qaytib ko'rish uchun sarlavhali sahifa nomi"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Yuqoriga qaytish",
-    "description": "Yuqoriga qaytish tugmasi uchun ARIA tegi"
+    "description": "Yuqoriga qaytish tugmasi uchun ARIA belgisi"
+  },
+  "theme.blog.archive.title": {
+    "message": "Arxiv",
+    "description": "Blog arxiv sahifasining sarlavha va hero nomi"
+  },
+  "theme.blog.archive.description": {
+    "message": "Arxiv",
+    "description": "Blog arxiv sahifasining sarlavha va hero ta'riflari"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Blog ro'yxat sahifalash",
-    "description": "Blog sahifalash uchun ARIA tegi"
+    "message": "Blog ro'yxat sahifalari navigatsiyasi",
+    "description": "Blog pagination uchun ARIA belgisi"
   },
   "theme.blog.paginator.newerEntries": {
-    "message": "So'nggi kirishlar",
-    "description": "So'nggi blog kirishlar sahifasiga o'tish uchun ishlatiladigan belgi"
+    "message": "Yangi kirishlar",
+    "description": "Oldingi sahifaga navigatsiya qilish uchun ishlatiladigan yorliq"
   },
   "theme.blog.paginator.olderEntries": {
-    "message": "Avvalgi kirishlar",
-    "description": "Avvalgi blog kirishlar sahifasiga o'tish uchun ishlatiladigan belgi"
+    "message": "O'sgan kirishlar",
+    "description": "Keyingi sahifaga navigatsiya qilish uchun ishlatiladigan yorliq"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Blog post sahifalash",
-    "description": "Blog post sahifalash uchun ARIA tegi"
+    "message": "Blog post sahifasi navigatsiyasi",
+    "description": "Blog post pagination uchun ARIA belgisi"
   },
   "theme.blog.post.paginator.newerPost": {
-    "message": "So'nggi post",
-    "description": "So'nggi/oldingi postga o'tish uchun blog post tugmasi belgisi"
+    "message": "Yangi Post",
+    "description": "Oldingi/yangi postga navigatsiya qilish uchun blog post tugmasi nomi"
   },
   "theme.blog.post.paginator.olderPost": {
-    "message": "Avvalgi post",
-    "description": "Avvalgi/keyingi postga o'tish uchun blog post tugmasi belgisi"
+    "message": "O'soniy Post",
+    "description": "Keyingi/oldingi postga navigatsiya qilish uchun blog post tugmasi nomi"
   },
   "theme.blog.post.plurals": {
     "message": "Bir post|{count} postlar",
-    "description": "Plural ko'rinishda \"{count} postlar\" uchun belgi. Sizning tillaringizni qanday ko'rsatishini (\"|\") alohida ko'rsatish mumkin (ko'rish uchun https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "\"{count} postlar\" uchun plural label. Til qo'llab quvvatlanadigan ko'pliklarini ishlating (\"|\") (ko'rish uchun https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
-    "message": "{nPosts} ta \"{tagName}\" bilan belgilangan",
-    "description": "Blog tag sahifasi uchun sarlavha"
+    "message": "{nPosts} \"{tagName}\" bilan belgilangan",
+    "description": "Blog tag sahifasi uchun sarlavha nomi"
   },
   "theme.tags.tagsPageLink": {
-    "message": "Barcha taglarni ko'rish",
-    "description": "Tag ro'yxati sahifasiga yo'naltirish uchun havola belgisi"
-  },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Bredkrumbs",
-    "description": "Bredkrumbs uchun ARIA tegi"
+    "message": "Barcha taglarni ko'ring",
+    "description": "Tag ro'yxati sahifasiga yo'naltirilgan havola nomi"
   },
   "theme.colorToggle.ariaLabel": {
-    "message": "Qora va ochiq rejimlar orasida o'chirish (hozirgi {mode})",
-    "description": "Navbar rang rejimi almashtirish uchun ARIA tegi"
+    "message": "Qora va ochiq rejimlar orasida o'tish (hozirgi rejim {mode})",
+    "description": "Navbar rang rejimi o'tish uchun ARIA belgisi"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "qora rejim",
@@ -71,71 +168,75 @@
     "description": "Ochiq rang rejimi nomi"
   },
   "theme.docs.DocCard.categoryDescription": {
-    "message": "{count} ta narsa",
-    "description": "Yaratilgan indeks kategoriyasining standart tavsifi"
+    "message": "{count} ta",
+    "description": "Indeksdagi kategoriya kartasi uchun standart ta'rif, bu kategoriya qancha elementni o'z ichiga oladi"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "Breadcrumbs uchun ARIA belgisi"
   },
   "theme.docs.paginator.navAriaLabel": {
-    "message": "Hujjatlar sahifalash",
-    "description": "Hujjatlar sahifalash uchun ARIA tegi"
+    "message": "Docs sahifalari",
+    "description": "Docs pagination uchun ARIA belgisi"
   },
   "theme.docs.paginator.previous": {
     "message": "Oldingi",
-    "description": "Oldingi hujjatga o'tish uchun ishlatiladigan belgi"
+    "description": "Oldingi docga navigatsiya qilish uchun ishlatiladigan yorliq"
   },
   "theme.docs.paginator.next": {
     "message": "Keyingi",
-    "description": "Keyingi hujjatga o'tish uchun ishlatiladigan belgi"
+    "description": "Keyingi docga navigatsiya qilish uchun ishlatiladigan yorliq"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
-    "message": "Bir hujjat belgilandi|{count} hujjatlar belgilandi",
-    "description": "Plural ko'rinishda \"{count} hujjatlar belgilandi\" uchun belgi. Sizning tillaringizni qanday ko'rsatishini (\"|\") alohida ko'rsatish mumkin (ko'rish uchun https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "Bir doc belgilangan|{count} ta doc belgilangan",
+    "description": "\"{count} ta doc belgilangan\" uchun plural label. Ko'pliklarini ishlating (\"|\") (ko'rish uchun https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
-    "message": "{nDocsTagged} ta \"{tagName}\" bilan belgilangan",
-    "description": "Hujjatlar tag sahifasi uchun sarlavha"
+    "message": "\"{tagName}\" bilan {nDocsTagged}",
+    "description": "Docs tag sahifasi uchun sarlavha nomi"
   },
   "theme.docs.versionBadge.label": {
     "message": "Versiya: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
-    "message": "Bu {siteTitle} {versionLabel} versiyasiga ochiq hujjatlarni ko'rish uchun foydalaniladigan dokumentatsiya.",
-    "description": "Foydalanuvchiga joriy versiyada hujjat ko'rishini aytmak uchun ishlatiladigan belgi"
+    "message": "Bu {siteTitle} {versionLabel} versiyasining rasmga chiqmagan hujjatlari.",
+    "description": "Foydalanuvchiga o'sha versiyadagi hujjatlar ustida bo'lib borishini xabar berish uchun ishlatiladigan belgi"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
-    "message": "Bu {siteTitle} {versionLabel} versiyasi hozir faol ravishda o'rnatilmagan.",
-    "description": "Foydalanuvchiga dokumentatsiyada qanday versiyada bo'lganini aytmak uchun ishlatiladigan belgi"
+    "message": "Bu {siteTitle} {versionLabel} versiyasi, hozircha faol ravishda qo'llab-quvvatlanmaydi.",
+    "description": "Foydalanuvchiga o'sha versiyadagi hujjatlar ustida bo'lib borishini xabar berish uchun ishlatiladigan belgi"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
-    "message": "So'nggi ma'lumot uchun {latestVersionLink} ko'ring ({versionLabel}).",
+    "message": "So'nggi ma'lumotlar uchun, {latestVersionLink} (joriy versiya {versionLabel}).",
     "description": "Foydalanuvchiga eng so'nggi versiyani tekshirish uchun ishlatiladigan belgi"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "so'nggi versiya",
-    "description": "So'nggi versiya havola belgisi uchun ishlatiladigan belgi"
+    "description": "So'nggi versiya tavsiya havolasiga oid belgi"
   },
   "theme.common.editThisPage": {
-    "message": "Ushbu sahifani tahrirlash",
-    "description": "Joriy sahifani tahrirlash uchun havola belgisi"
+    "message": "Bu sahifani tahrirlash",
+    "description": "Hozirgi sahifani tahrirlash uchun havola belgisi"
   },
   "theme.common.headingLinkTitle": {
-    "message": "{heading} ga to'g'ri havola",
-    "description": "Havola sarlavhasi"
+    "message": "{heading}ga mo'ljallangan to'g'ri havola",
+    "description": "Mo'ljallangan havolaga sarlavha"
   },
   "theme.lastUpdated.atDate": {
     "message": " {date} kuni",
-    "description": "Sahifa oxirgi marta qachon yangilandi deb aytmak uchun ishlatiladigan so'zlar"
+    "description": "Sahifa oxirgi marta qanday sanada yangilandi deb ta'riflash uchun ishlatiladigan so'zlar"
   },
   "theme.lastUpdated.byUser": {
     "message": " {user} tomonidan",
-    "description": "Sahifa oxirgi marta kim tomonidan yangilandi deb aytmak uchun ishlatiladigan so'zlar"
+    "description": "Sahifa oxirgi marta qanday foydalanuvchining yangilandi deb ta'riflash uchun ishlatiladigan so'zlar"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Oxirgi marta yangilandi{atDate}{byUser}",
-    "description": "Sahifa oxirgi marta qachon yangilandi va kim tomonidan yangilandi deb aytmak uchun ishlatiladigan gap"
+    "description": "Sahifa oxirgi marta qanday va kim tomonidan yangilandi deb ko'rsatish uchun ishlatiladigan gap"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Versiyalar",
-    "description": "Mobil ko'rinishdagi navbar versiyalari tanlash tizimi uchun belgi"
+    "description": "Mobil ko'rinishdagi navbar versiyalar tangasining belgisi"
   },
   "theme.NotFound.title": {
     "message": "Sahifa topilmadi",
@@ -143,168 +244,150 @@
   },
   "theme.tags.tagsListLabel": {
     "message": "Teglar:",
-    "description": "Teglar ro'yxati bilan bog'liq belgi"
+    "description": "Teglar ro'yxati bilan birga ishlatiladigan belgi"
   },
   "theme.admonition.caution": {
-    "message": "ogohlantirish",
-    "description": "Ogohlantirish uchun standart belgi (:::ogohlantirish)"
+    "message": "ehtiyotlik",
+    "description": ":::ehtiyotlik uchun ishlatiladigan standart belgi"
   },
   "theme.admonition.danger": {
-    "message": "kutilmagan xatar",
-    "description": "Kutilmagan xatar uchun standart belgi (:::kutilmagan)"
+    "message": "xavfu",
+    "description": ":::xavfu uchun ishlatiladigan standart belgi"
   },
   "theme.admonition.info": {
     "message": "ma'lumot",
-    "description": "Ma'lumot uchun standart belgi (:::ma'lumot)"
+    "description": ":::ma'lumot uchun ishlatiladigan standart belgi"
   },
   "theme.admonition.note": {
-    "message": "eslatma",
-    "description": "Eslatma uchun standart belgi (:::eslatma)"
+    "message": "note",
+    "description": ":::note uchun ishlatiladigan standart belgi"
   },
   "theme.admonition.tip": {
     "message": "maslahat",
-    "description": "Maslahat uchun standart belgi (:::maslahat)"
+    "description": ":::maslahat uchun ishlatiladigan standart belgi"
   },
   "theme.admonition.warning": {
     "message": "ogohlantirish",
-    "description": "Ogohlantirish uchun standart belgi (:::ogohlantirish)"
+    "description": ":::ogohlantirish uchun ishlatiladigan standart belgi"
   },
   "theme.AnnouncementBar.closeButtonAriaLabel": {
     "message": "Yopish",
-    "description": "E'lon panelining yopish tugmasi uchun ARIA tegi"
+    "description": "e'lonlar paneli yopish tugmasining ARIA belgisi"
   },
   "theme.blog.sidebar.navAriaLabel": {
-    "message": "Blog so'nggi kirishlar navigatsiyasi",
-    "description": "Blog sidebarida so'nggi kirishlar uchun ARIA tegi"
+    "message": "Blog so'nggi maqolalar navigatsiyasi",
+    "description": "Blog sidebarida so'nggi maqolalar uchun ARIA belgisi"
   },
   "theme.CodeBlock.copied": {
-    "message": "Nusxa olindi",
-    "description": "Kod bloklarining nusxasi tugmasi sarlavhasi"
+    "message": "Nusxalandi",
+    "description": "Kod bloklariga oid nusxa olingan tugma belgisi"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
-    "message": "Kodni klibortaga nusxa olish",
-    "description": "Kod bloklarini klibortaga nusxalash tugmasi uchun ARIA tegi"
+    "message": "Kodni ko'chirib olish",
+    "description": "Kod bloklarini nusxalash tugmasi uchun ARIA belgisi"
   },
   "theme.CodeBlock.copy": {
     "message": "Nusxa olish",
-    "description": "Kod bloklarini nusxalash tugmasi sarlavhasi"
+    "description": "Kod bloklarini nusxalash tugmasi belgisi"
   },
   "theme.CodeBlock.wordWrapToggle": {
-    "message": "So'z qanday o'lchashini o'zgartirish",
-    "description": "Kod bloklarining qatorlarini o'lchash tugmasining sarlavhasi"
+    "message": "So'z qoplamasini yoqish/o'chirish",
+    "description": "Kod blok qatorlarining so'z qoplamasini yoqish/o'chirish tugmasi uchun sarlavha atributi"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "'{label}' tomonidan sidebar to'g'risidagi kategoriyaning kengaytirilishini",
-    "description": "Sidebar kategoriyasini kengaytirish uchun ARIA tegi"
+    "message": "'{label}' tomonidan bo'lgan sidebar kategoriyasini kengaytirish",
+    "description": "Sidebar kategoriyasini kengaytirish uchun ARIA belgisi"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "'{label}' tomonidan sidebar kategoriyasini qisqartirish",
-    "description": "Sidebar kategoriyasini qisqartirish uchun ARIA tegi"
-  },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Tillar",
-    "description": "Mobil tillarni almashtirish oynasi uchun belgi"
+    "message": "'{label}' tomonidan bo'lgan sidebar kategoriyasini qisqartirish",
+    "description": "Sidebar kategoriyasini qisqartirish uchun ARIA belgisi"
   },
   "theme.NavBar.navAriaLabel": {
     "message": "Asosiy",
-    "description": "Asosiy navigatsiya uchun ARIA tegi"
+    "description": "Asosiy navigatsiya uchun ARIA belgisi"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Tillar",
+    "description": "Mobil til o'zgartiruvchi tanganing belgisi"
   },
   "theme.NotFound.p1": {
-    "message": "Qidirganingizni topa olmadik.",
-    "description": "404 sahifasining birinchi paragrafi"
+    "message": "Siz qidirayotgan sahifa topilmadi.",
+    "description": "404 sahifasining birinchi qismi"
   },
   "theme.NotFound.p2": {
-    "message": "Iltimos, sizni asosiy URL-ga bog'lanadigan sayt egasi bilan bog'laning va ularni havolalari buzilganini ayting.",
-    "description": "404 sahifasining ikkinchi paragrafi"
+    "message": "Iltimos, sizni asosiy URL manbasiga bog'lanish orqali yo'nlatingan sayt egasi bilan bog'lanish va unga xatolik bo'lgan havolani xabar bering.",
+    "description": "404 sahifasining ikkinchi qismi"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Ushbu sahifada",
-    "description": "Qisqartirilgan TOC komponenti uchun tugma belgisi"
+    "description": "Qisqichasini TOC komponentining tugma belgisi"
   },
   "theme.blog.post.readMore": {
-    "message": "Ko'proq o'qing",
-    "description": "Blog post elementlarida to'liq blog postlarga havola qilish uchun ishlatiladigan belgi"
+    "message": "Batafsil o'qing",
+    "description": "Blog maqolalari uchun to'liq maqolalarga havola qilish uchun ishlatiladigan belgi"
   },
   "theme.blog.post.readMoreLabel": {
     "message": "{title} haqida ko'proq o'qing",
-    "description": "Qisqartmalarda to'liq blog postlarga havola uchun ARIA tegi"
+    "description": "Blog maqolasidagi o'lkashlardan to'liq blog maqolalariga havola uchun ARIA belgisi"
   },
   "theme.blog.post.readingTime.plurals": {
-    "message": "Bir daqiqa o'qish|{readingTime} daqiqa o'qish",
-    "description": "Plural ko'rinishda \"{readingTime} daqiqa o'qish\" uchun belgi. Sizning tillaringizni qanday ko'rsatishini (\"|\") alohida ko'rsatish mumkin (ko'rish uchun https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "message": "Bir daqiqada o'qing|{readingTime} daqiqada o'qing",
+    "description": "\"{readingTime} daqiqada o'qing\" uchun plural belgi. Qancha ko'pliklarni qo'llaydiganingizni ko'rish uchun (\"|\") ko'pliklarni ishlatasiz (https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Bosh sahifa",
-    "description": "Bredkrumbs uchun ARIA tegi"
-  },
-  "theme.docs.sidebar.collapseButtonTitle": {
-    "message": "Sidebarni qisqartirish",
-    "description": "Doc sidebarning qisqartirish tugmasi uchun sarlavhasi"
-  },
-  "theme.docs.sidebar.collapseButtonAriaLabel": {
-    "message": "Sidebarni qisqartirish",
-    "description": "Doc sidebarning qisqartirish tugmasi uchun ARIA tegi"
+    "description": "Breadcrumbsda bosh sahifa uchun ARIA belgisi"
   },
   "theme.docs.sidebar.navAriaLabel": {
     "message": "Docs sidebar",
-    "description": "Sidebar navigatsiyasi uchun ARIA tegi"
+    "description": "Sidebar navigatsiyasi uchun ARIA belgisi"
   },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Asosiy menyuga qaytish",
-    "description": "Mobil navbar sidebar ichidagi o'zgaruvchilarning asosiy menyuga qaytish tugmasining sarlavhasi"
+  "theme.docs.sidebar.collapseButtonTitle": {
+    "message": "Sidebar'ni qisqartirish",
+    "description": "Doc sidebar qisqartirish tugmasi uchun sarlavha atributi"
   },
-  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
-    "message": "Navigatsiya panelini yoqish",
-    "description": "Mobil navigatsiya uchun hamburger menyu tugmasi uchun ARIA tegi"
-  },
-  "theme.docs.sidebar.expandButtonTitle": {
-    "message": "Sidebarni kengaytirish",
-    "description": "Doc sidebarning kengaytirish tugmasi uchun ARIA tegi va sarlavhasi"
-  },
-  "theme.docs.sidebar.expandButtonAriaLabel": {
-    "message": "Sidebarni kengaytirish",
-    "description": "Doc sidebarning kengaytirish tugmasi uchun ARIA tegi va sarlavhasi"
+  "theme.docs.sidebar.collapseButtonAriaLabel": {
+    "message": "Sidebar'ni qisqartirish",
+    "description": "Doc sidebar qisqartirish tugmasi uchun ARIA belgisi"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Navigatsiya panelini yopish",
-    "description": "Mobil sidebar yopish tugmasi uchun ARIA tegi"
+    "description": "Mobil sidebar yopish tugmasi uchun ARIA belgisi"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Asosiy menuga qaytish",
+    "description": "Mobil navbar sidebarning o'rtacha menusi ichida (ma'lumotlar sidebarini ko'rsatishda ishlatiladi)"
+  },
+  "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
+    "message": "Navigatsiya panelini yo'qotish",
+    "description": "Mobil navigatsiya uchun hamburger menyu tugmasi uchun ARIA belgisi"
+  },
+  "theme.docs.sidebar.expandButtonTitle": {
+    "message": "Sidebar'ni kengaytirish",
+    "description": "Doc sidebarni kengaytirish tugmasi uchun sarlavha atributi"
+  },
+  "theme.docs.sidebar.expandButtonAriaLabel": {
+    "message": "Sidebar'ni kengaytirish",
+    "description": "Doc sidebarni kengaytirish tugmasi uchun ARIA belgisi"
   },
   "theme.ErrorPageContent.tryAgain": {
-    "message": "Qayta urinib ko'ring",
-    "description": "React xatolik sinovi xatolikni aniqlaganida renderni qayta urinib ko'rish tugmasi sarlavhasi"
+    "message": "Qaytadan urinib ko'ring",
+    "description": "React xatolik chegarasidan xabar topilganda sahifani qaytadan yaratish uchun tugma belgisi"
   },
   "theme.common.skipToMainContent": {
-    "message": "Asosiy tarkibga o'tish",
-    "description": "Klavish tab/enter navigatsiyasi bilan tez-tez asosiy tarkibga o'tish uchun foydalaniladigan 'tarkibga o'tish' belgisi"
+    "message": "Asosiy maqolaga o'tish",
+    "description": "Kirish joyni sifatida ishlatiladigan etiket, klaviatura orqali tez o'tish imkoniyatini taqdim etadi"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Teglar",
     "description": "Teglar ro'yxati sahifasining sarlavhasi"
   },
   "theme.unlistedContent.title": {
-    "message": "Royhatdan o'tmagan sahifa",
-    "description": "Royhatdan o'tmagan kontent bannerining sarlavhasi"
+    "message": "Ro'yxatsiz sahifa",
+    "description": "Ro'yxatsiz kontent banner sarlavhasi"
   },
   "theme.unlistedContent.message": {
-    "message": "Ushbu sahifa ro'yhatga olinmagan. Qidiruv tizimlari unga indeksatsiya qilmaydi, va faqat mos keladigan havolaga ega bo'lgan foydalanuvchilar unga kirishlari mumkin.",
-    "description": "Royhatdan o'tmagan kontent bannerining habari"
-  },
-  "Help": {
-    "message": "Yordam"
-  },
-  "About": {
-    "message": "Biz haqimizda"
-  },
-  "Contacts": {
-    "message": "Aloqa"
-  },
-  "Socials": {
-    "message": "Ijtimoiy tarmoqlar"
-  },
-  "Join our community": {
-    "message": "Jamoa bilan qo'shiling"
-  },
-  "Get started": {
-    "message": "Boshlang'ichni boshlang"
+    "message": "Bu sahifa ro'yxatdan o'tkazildi. Qidiruv tizimlari unga indeks qilmaydi va faqat to'g'ri havolaga ega bo'lgan foydalanuvchilar unga kirishadi.",
+    "description": "Ro'yxatsiz kontent banner xabar matni"
   }
 }

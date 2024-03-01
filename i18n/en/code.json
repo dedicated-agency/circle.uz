@@ -1,10 +1,116 @@
 {
+  "Make your coding skills better": {
+    "message": "Make your coding skills better"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file"
+  },
+  "Explore": {
+    "message": "Explore"
+  },
+  "Join our community": {
+    "message": "Join our community"
+  },
+  "How does it work?": {
+    "message": "How does it work?"
+  },
+  "Design file": {
+    "message": "Design file"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file."
+  },
+  "Web": {
+    "message": "Web"
+  },
+  "MobileWeb": {
+    "message": "MobileWeb"
+  },
+  "Components": {
+    "message": "Components"
+  },
+  "Dark theme": {
+    "message": "Dark theme"
+  },
+  "Challanges on platform": {
+    "message": "Challanges on platform"
+  },
+  "Community": {
+    "message": "Community"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity"
+  },
+  "Join the community": {
+    "message": "Join the community"
+  },
+  "Markt 2.0": {
+    "message": "Markt 2.0"
+  },
+  "E - commerce project": {
+    "message": "E - commerce project"
+  },
+  "UI Design": {
+    "message": "UI Design"
+  },
+  "Style Guide": {
+    "message": "Style Guide"
+  },
+  "Compinents": {
+    "message": "Compinents"
+  },
+  "About project": {
+    "message": "About project"
+  },
+  "Have any questions?": {
+    "message": "Have any questions?"
+  },
+  "If you have any questions, we are glad to answer them 👋": {
+    "message": "If you have any questions, we are glad to answer them 👋"
+  },
+  "Type in telegram": {
+    "message": "Type in telegram"
+  },
+  "Get started": {
+    "message": "Get started"
+  },
+  "Help": {
+    "message": "Help"
+  },
+  "About": {
+    "message": "About"
+  },
+  "Contacts": {
+    "message": "Contacts"
+  },
+  "Socials": {
+    "message": "Socials"
+  },
   "We provide the opportunity to significantly": {
     "message": "We provide the opportunity to significantly"
+  },
+  "Start project": {
+    "message": "Start project"
+  },
+  "You can start project as a FrontEnd or BackEnd developer.": {
+    "message": "You can start project as a FrontEnd or BackEnd developer."
+  },
+  "Frontend": {
+    "message": "Frontend"
+  },
+  "Backend (soon)": {
+    "message": "Backend (soon)"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file"
   },
   "theme.ErrorPageContent.title": {
     "message": "This page crashed.",
     "description": "The title of the fallback page when the page crashed"
+  },
+  "theme.BackToTopButton.buttonAriaLabel": {
+    "message": "Scroll back to top",
+    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.archive.title": {
     "message": "Archive",
@@ -13,10 +119,6 @@
   "theme.blog.archive.description": {
     "message": "Archive",
     "description": "The page & hero description of the blog archive page"
-  },
-  "theme.BackToTopButton.buttonAriaLabel": {
-    "message": "Scroll back to top",
-    "description": "The ARIA label for the back to top button"
   },
   "theme.blog.paginator.navAriaLabel": {
     "message": "Blog list page navigation",
@@ -54,10 +156,6 @@
     "message": "View All Tags",
     "description": "The label of the link targeting the tag list page"
   },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Breadcrumbs",
-    "description": "The ARIA label for the breadcrumbs"
-  },
   "theme.colorToggle.ariaLabel": {
     "message": "Switch between dark and light mode (currently {mode})",
     "description": "The ARIA label for the navbar color mode toggle"
@@ -69,6 +167,10 @@
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "light mode",
     "description": "The name for the light color mode"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Breadcrumbs",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} items",
@@ -201,13 +303,13 @@
     "message": "Collapse sidebar category '{label}'",
     "description": "The ARIA label to collapse the sidebar category"
   },
-  "theme.navbar.mobileLanguageDropdown.label": {
-    "message": "Languages",
-    "description": "The label for the mobile language switcher dropdown"
-  },
   "theme.NavBar.navAriaLabel": {
     "message": "Main",
     "description": "The ARIA label for the main navigation"
+  },
+  "theme.navbar.mobileLanguageDropdown.label": {
+    "message": "Languages",
+    "description": "The label for the mobile language switcher dropdown"
   },
   "theme.NotFound.p1": {
     "message": "We could not find what you were looking for.",
@@ -249,6 +351,10 @@
     "message": "Docs sidebar",
     "description": "The ARIA label for the sidebar navigation"
   },
+  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
+    "message": "Close navigation bar",
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
   "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
     "message": "← Back to main menu",
     "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
@@ -264,10 +370,6 @@
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Expand sidebar",
     "description": "The ARIA label and title attribute for expand button of doc sidebar"
-  },
-  "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
-    "message": "Close navigation bar",
-    "description": "The ARIA label for close button of mobile sidebar"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Try again",
@@ -288,23 +390,5 @@
   "theme.unlistedContent.message": {
     "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
     "description": "The unlisted content banner message"
-  },
-  "Help": {
-    "message": "Help"
-  },
-  "About": {
-    "message": "About"
-  },
-  "Contacts": {
-    "message": "Contacts"
-  },
-  "Socials": {
-    "message": "Socials"
-  },
-  "Join our community": {
-    "message": "Join our community"
-  },
-  "Get started": {
-    "message": "Get started"
   }
 }

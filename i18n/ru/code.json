@@ -1,310 +1,394 @@
 {
-  "Help": {
-    "message": "Помощь"
+  "Make your coding skills better": {
+    "message": "Make your coding skills better"
   },
-  "About": {
-    "message": "О нас"
+  "We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file"
   },
-  "Contacts": {
-    "message": "Контакты"
-  },
-  "Socials": {
-    "message": "Соцсети"
+  "Explore": {
+    "message": "Explore"
   },
   "Join our community": {
-    "message": "Присоединяйтесь к нашему сообществу"
+    "message": "Join our community"
+  },
+  "How does it work?": {
+    "message": "How does it work?"
+  },
+  "Design file": {
+    "message": "Design file"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file."
+  },
+  "Web": {
+    "message": "Web"
+  },
+  "MobileWeb": {
+    "message": "MobileWeb"
+  },
+  "Components": {
+    "message": "Components"
+  },
+  "Dark theme": {
+    "message": "Dark theme"
+  },
+  "Challanges on platform": {
+    "message": "Challanges on platform"
+  },
+  "Community": {
+    "message": "Community"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity"
+  },
+  "Join the community": {
+    "message": "Join the community"
+  },
+  "Markt 2.0": {
+    "message": "Markt 2.0"
+  },
+  "E - commerce project": {
+    "message": "E - commerce project"
+  },
+  "UI Design": {
+    "message": "UI Design"
+  },
+  "Style Guide": {
+    "message": "Style Guide"
+  },
+  "Compinents": {
+    "message": "Compinents"
+  },
+  "About project": {
+    "message": "About project"
+  },
+  "Have any questions?": {
+    "message": "Have any questions?"
+  },
+  "If you have any questions, we are glad to answer them 👋": {
+    "message": "If you have any questions, we are glad to answer them 👋"
+  },
+  "Type in telegram": {
+    "message": "Type in telegram"
+  },
+  "Help": {
+    "message": "Help"
+  },
+  "About": {
+    "message": "About"
+  },
+  "Contacts": {
+    "message": "Contacts"
+  },
+  "Socials": {
+    "message": "Socials"
   },
   "Get started": {
-    "message": "Начать"
+    "message": "Get started"
   },
   "We provide the opportunity to significantly": {
-    "message": "Мы предоставляем большие возможности"
+    "message": "We provide the opportunity to significantly"
+  },
+  "Start project": {
+    "message": "Start project"
+  },
+  "You can start project as a FrontEnd or BackEnd developer.": {
+    "message": "You can start project as a FrontEnd or BackEnd developer."
+  },
+  "Frontend": {
+    "message": "Frontend"
+  },
+  "Backend (soon)": {
+    "message": "Backend (soon)"
+  },
+  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
+    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file"
   },
   "theme.ErrorPageContent.title": {
     "message": "На странице произошёл сбой.",
-    "description": "Заголовок страницы, когда страница вышла из строя"
-  },
-  "theme.blog.archive.title": {
-    "message": "Архив",
-    "description": "Заголовок архивной страницы блога"
-  },
-  "theme.blog.archive.description": {
-    "message": "Архив",
-    "description": "Описание архивной страницы блога"
+    "description": "The title of the fallback page when the page crashed"
   },
   "theme.BackToTopButton.buttonAriaLabel": {
     "message": "Прокрутка к началу",
-    "description": "ARIA-метка для кнопки возврата в начало"
+    "description": "The ARIA label for the back to top button"
+  },
+  "theme.blog.archive.title": {
+    "message": "Архив",
+    "description": "The page & hero title of the blog archive page"
+  },
+  "theme.blog.archive.description": {
+    "message": "Архив",
+    "description": "The page & hero description of the blog archive page"
   },
   "theme.blog.paginator.navAriaLabel": {
-    "message": "Навигация по страницам блога",
-    "description": "ARIA-метка для пагинации блога"
+    "message": "Навигация по странице списка блогов",
+    "description": "The ARIA label for the blog pagination"
   },
   "theme.blog.paginator.newerEntries": {
     "message": "Следующие записи",
-    "description": "Метка для перехода к следующим записям блога"
+    "description": "The label used to navigate to the newer blog posts page (previous page)"
   },
   "theme.blog.paginator.olderEntries": {
     "message": "Предыдущие записи",
-    "description": "Метка для перехода к предыдущим записям блога"
+    "description": "The label used to navigate to the older blog posts page (next page)"
   },
   "theme.blog.post.paginator.navAriaLabel": {
-    "message": "Навигация по страницам поста блога",
-    "description": "ARIA-метка для пагинации постов блога"
+    "message": "Навигация по странице поста блога",
+    "description": "The ARIA label for the blog posts pagination"
   },
   "theme.blog.post.paginator.newerPost": {
     "message": "Следующий пост",
-    "description": "Метка кнопки для перехода к следующему/предыдущему посту блога"
+    "description": "The blog post button label to navigate to the newer/previous post"
   },
   "theme.blog.post.paginator.olderPost": {
     "message": "Предыдущий пост",
-    "description": "Метка кнопки для перехода к предыдущему/следующему посту блога"
+    "description": "The blog post button label to navigate to the older/next post"
   },
   "theme.blog.post.plurals": {
     "message": "{count} запись|{count} записи|{count} записей",
-    "description": "Форма множественного числа для \"{count} записей\". Используйте столько форм множественного числа, сколько поддерживает ваш язык (см. https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} posts\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.blog.tagTitle": {
     "message": "{nPosts} с тегом \"{tagName}\"",
-    "description": "Заголовок страницы для тега блога"
+    "description": "The title of the page for a blog tag"
   },
   "theme.tags.tagsPageLink": {
     "message": "Посмотреть все теги",
-    "description": "Метка ссылки на страницу списка тегов"
-  },
-  "theme.docs.breadcrumbs.navAriaLabel": {
-    "message": "Навигационная цепочка текущей страницы",
-    "description": "ARIA-метка для хлебных крошек"
+    "description": "The label of the link targeting the tag list page"
   },
   "theme.colorToggle.ariaLabel": {
     "message": "Переключение между темным и светлым режимом (сейчас используется {mode})",
-    "description": "ARIA-метка для переключения цветовой схемы навбара"
+    "description": "The ARIA label for the navbar color mode toggle"
   },
   "theme.colorToggle.ariaLabel.mode.dark": {
     "message": "Тёмный режим",
-    "description": "Название тёмной цветовой схемы"
+    "description": "The name for the dark color mode"
   },
   "theme.colorToggle.ariaLabel.mode.light": {
     "message": "Светлый режим",
-    "description": "Название светлой цветовой схемы"
+    "description": "The name for the light color mode"
   },
   "theme.docs.DocCard.categoryDescription": {
     "message": "{count} элемент|{count} элемента|{count} элементов",
-    "description": "Описание категории для карточки документации о количестве элементов"
+    "description": "The default description for a category card in the generated index about how many items this category includes"
+  },
+  "theme.docs.breadcrumbs.navAriaLabel": {
+    "message": "Навигационная цепочка текущей страницы",
+    "description": "The ARIA label for the breadcrumbs"
   },
   "theme.docs.paginator.navAriaLabel": {
     "message": "Страница документа",
-    "description": "ARIA-метка для пагинации документации"
+    "description": "The ARIA label for the docs pagination"
   },
   "theme.docs.paginator.previous": {
     "message": "Предыдущая страница",
-    "description": "Метка для перехода к предыдущему документу"
+    "description": "The label used to navigate to the previous doc"
   },
   "theme.docs.paginator.next": {
     "message": "Следующая страница",
-    "description": "Метка для перехода к следующему документу"
+    "description": "The label used to navigate to the next doc"
   },
   "theme.docs.tagDocListPageTitle.nDocsTagged": {
     "message": "Одна страница|{count} страницы|{count} страниц",
-    "description": "Форма множественного числа для \"{count} документов с тегом\". Используйте столько форм множественного числа, сколько поддерживает ваш язык (см. https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{count} docs tagged\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
   },
   "theme.docs.tagDocListPageTitle": {
     "message": "{nDocsTagged} с тегом \"{tagName}\"",
-    "description": "Заголовок страницы для документов с тегом"
+    "description": "The title of the page for a docs tag"
   },
   "theme.docs.versionBadge.label": {
     "message": "Версия: {versionLabel}"
   },
   "theme.docs.versions.unreleasedVersionLabel": {
     "message": "Это документация для будущей версии {siteTitle} {versionLabel}.",
-    "description": "Метка, указывающая пользователю, что он просматривает неопубликованную версию документации"
+    "description": "The label used to tell the user that he's browsing an unreleased doc version"
   },
   "theme.docs.versions.unmaintainedVersionLabel": {
     "message": "Это документация {siteTitle} для версии {versionLabel}, которая уже не поддерживается.",
-    "description": "Метка, указывающая пользователю, что он просматривает не поддерживаемую версию документации"
+    "description": "The label used to tell the user that he's browsing an unmaintained doc version"
   },
   "theme.docs.versions.latestVersionSuggestionLabel": {
     "message": "Актуальная документация находится на странице {latestVersionLink} ({versionLabel}).",
-    "description": "Метка, указывающая пользователю проверить последнюю версию"
+    "description": "The label used to tell the user to check the latest version"
   },
   "theme.docs.versions.latestVersionLinkLabel": {
     "message": "последней версии",
-    "description": "Метка для ссылки на последнюю версию"
+    "description": "The label used for the latest version suggestion link label"
   },
   "theme.common.editThisPage": {
     "message": "Отредактировать эту страницу",
-    "description": "Метка ссылки для редактирования текущей страницы"
+    "description": "The link label to edit the current page"
   },
   "theme.common.headingLinkTitle": {
     "message": "Прямая ссылка на {heading}",
-    "description": "Заголовок для ссылки на заголовок"
+    "description": "Title for link to heading"
   },
   "theme.lastUpdated.atDate": {
     "message": " {date}",
-    "description": "Слова, используемые для указания даты последнего обновления страницы"
+    "description": "The words used to describe on which date a page has been last updated"
   },
   "theme.lastUpdated.byUser": {
     "message": " от {user}",
-    "description": "Слова, используемые для указания пользователя, который последний раз обновил страницу"
+    "description": "The words used to describe by who the page has been last updated"
   },
   "theme.lastUpdated.lastUpdatedAtBy": {
     "message": "Последнее обновление{atDate}{byUser}",
-    "description": "Фраза, используемая для отображения последнего обновления страницы и пользователя, который это сделал"
-  },
-  "theme.NotFound.title": {
-    "message": "Страница не найдена",
-    "description": "Заголовок страницы 404"
+    "description": "The sentence used to display when a page has been last updated, and by who"
   },
   "theme.navbar.mobileVersionsDropdown.label": {
     "message": "Версии",
-    "description": "Метка выпадающего списка версий в мобильной версии навбара"
+    "description": "The label for the navbar versions dropdown on mobile view"
+  },
+  "theme.NotFound.title": {
+    "message": "Страница не найдена",
+    "description": "The title of the 404 page"
   },
   "theme.tags.tagsListLabel": {
     "message": "Теги:",
-    "description": "Метка рядом со списком тегов"
+    "description": "The label alongside a tag list"
   },
   "theme.admonition.caution": {
     "message": "предупреждение",
-    "description": "Метка для предостережения (:::caution)"
+    "description": "The default label used for the Caution admonition (:::caution)"
   },
   "theme.admonition.danger": {
     "message": "осторожно",
-    "description": "Метка для предостережения (:::danger)"
+    "description": "The default label used for the Danger admonition (:::danger)"
   },
   "theme.admonition.info": {
     "message": "к сведению",
-    "description": "Метка для предостережения (:::info)"
+    "description": "The default label used for the Info admonition (:::info)"
   },
   "theme.admonition.note": {
     "message": "примечание",
-    "description": "Метка для предостережения (:::note)"
+    "description": "The default label used for the Note admonition (:::note)"
   },
   "theme.admonition.tip": {
     "message": "подсказка",
-    "description": "Метка для предостережения (:::tip)"
+    "description": "The default label used for the Tip admonition (:::tip)"
   },
   "theme.admonition.warning": {
-    "message": "предупреждение",
-    "description": "Метка для предостережения (:::warning)"
-  },
-  "theme.AnnouncementBar.closeButtonAriaLabel": {
-    "message": "Закрыть",
-    "description": "ARIA-метка для кнопки закрытия строки объявлений"
+    "message": "warning",
+    "description": "The default label used for the Warning admonition (:::warning)"
   },
   "theme.blog.sidebar.navAriaLabel": {
     "message": "Навигация по последним постам в блоге",
-    "description": "ARIA-метка для последних постов в боковой панели блога"
+    "description": "The ARIA label for recent posts in the blog sidebar"
   },
   "theme.CodeBlock.copied": {
     "message": "Скопировано",
-    "description": "Метка кнопки копирования в блоках кода"
+    "description": "The copied button label on code blocks"
   },
   "theme.CodeBlock.copyButtonAriaLabel": {
     "message": "Скопировать в буфер обмена",
-    "description": "ARIA-метка для кнопки копирования блоков кода"
+    "description": "The ARIA label for copy code blocks button"
   },
   "theme.CodeBlock.copy": {
     "message": "Скопировать",
-    "description": "Метка кнопки копирования в блоках кода"
+    "description": "The copy button label on code blocks"
+  },
+  "theme.AnnouncementBar.closeButtonAriaLabel": {
+    "message": "Закрыть",
+    "description": "The ARIA label for close button of announcement bar"
   },
   "theme.CodeBlock.wordWrapToggle": {
     "message": "Переключить перенос по строкам",
-    "description": "Заголовок для кнопки переключения переноса по словам в блоках кода"
+    "description": "The title attribute for toggle word wrapping button of code block lines"
   },
   "theme.DocSidebarItem.expandCategoryAriaLabel": {
-    "message": "Развернуть категорию сайдбара '{label}'",
-    "description": "ARIA-метка для разворачивания категории в сайдбаре"
+    "message": "Expand sidebar category '{label}'",
+    "description": "The ARIA label to expand the sidebar category"
   },
   "theme.DocSidebarItem.collapseCategoryAriaLabel": {
-    "message": "Свернуть категорию сайдбара '{label}'",
-    "description": "ARIA-метка для сворачивания категории в сайдбаре"
+    "message": "Collapse sidebar category '{label}'",
+    "description": "The ARIA label to collapse the sidebar category"
   },
   "theme.NavBar.navAriaLabel": {
-    "message": "Главное меню",
-    "description": "ARIA-метка для основной навигации"
-  },
-  "theme.NotFound.p1": {
-    "message": "К сожалению, мы не смогли найти запрашиваемую вами страницу.",
-    "description": "Первый параграф страницы 404"
-  },
-  "theme.NotFound.p2": {
-    "message": "Пожалуйста, обратитесь к владельцу сайта, с которого вы перешли на эту ссылку, чтобы сообщить ему, что ссылка не работает.",
-    "description": "Второй параграф страницы 404"
-  },
-  "theme.blog.post.readMore": {
-    "message": "Читать дальше",
-    "description": "Метка в отрывках от постов блога для перехода к полным постам"
-  },
-  "theme.blog.post.readMoreLabel": {
-    "message": "Подробнее о {title}",
-    "description": "ARIA-метка для ссылки на полные посты из отрывков"
+    "message": "Main",
+    "description": "The ARIA label for the main navigation"
   },
   "theme.navbar.mobileLanguageDropdown.label": {
     "message": "Языки",
-    "description": "Метка для выпадающего списка смены языка в мобильной версии навбара"
+    "description": "The label for the mobile language switcher dropdown"
+  },
+  "theme.NotFound.p1": {
+    "message": "К сожалению, мы не смогли найти запрашиваемую вами страницу.",
+    "description": "The first paragraph of the 404 page"
+  },
+  "theme.NotFound.p2": {
+    "message": "Пожалуйста, обратитесь к владельцу сайта, с которого вы перешли на эту ссылку, чтобы сообщить ему, что ссылка не работает.",
+    "description": "The 2nd paragraph of the 404 page"
   },
   "theme.TOCCollapsible.toggleButtonLabel": {
     "message": "Содержание этой страницы",
-    "description": "Метка кнопки для скрываемого компонента TOC"
+    "description": "The label used by the button on the collapsible TOC component"
   },
   "theme.blog.post.readingTime.plurals": {
     "message": "{readingTime} мин. чтения",
-    "description": "Форма множественного числа для \"{readingTime} мин. чтения\". Используйте столько форм множественного числа, сколько поддерживает ваш язык (см. https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+    "description": "Pluralized label for \"{readingTime} min read\". Use as much plural forms (separated by \"|\") as your language support (see https://www.unicode.org/cldr/cldr-aux/charts/34/supplemental/language_plural_rules.html)"
+  },
+  "theme.blog.post.readMore": {
+    "message": "Читать дальше",
+    "description": "The label used in blog post item excerpts to link to full blog posts"
+  },
+  "theme.blog.post.readMoreLabel": {
+    "message": "Подробнее о {title}",
+    "description": "The ARIA label for the link to full blog posts from excerpts"
   },
   "theme.docs.breadcrumbs.home": {
     "message": "Главная страница",
-    "description": "ARIA-метка для домашней страницы в хлебных крошках"
+    "description": "The ARIA label for the home page in the breadcrumbs"
   },
   "theme.docs.sidebar.collapseButtonTitle": {
     "message": "Свернуть сайдбар",
-    "description": "Заголовок для кнопки сворачивания боковой панели документации"
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.collapseButtonAriaLabel": {
     "message": "Свернуть сайдбар",
-    "description": "ARIA-метка для кнопки сворачивания боковой панели документации"
+    "description": "The title attribute for collapse button of doc sidebar"
   },
   "theme.docs.sidebar.navAriaLabel": {
-    "message": "Боковая панель документации",
-    "description": "ARIA-метка для боковой навигации"
-  },
-  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
-    "message": "← Перейти к главному меню",
-    "description": "Метка кнопки возврата к основному меню в мобильной версии боковой панели навбара (используется для отображения боковой панели документации)"
+    "message": "Docs sidebar",
+    "description": "The ARIA label for the sidebar navigation"
   },
   "theme.docs.sidebar.closeSidebarButtonAriaLabel": {
     "message": "Закрыть панель навигации",
-    "description": "ARIA-метка для кнопки закрытия мобильной боковой панели"
+    "description": "The ARIA label for close button of mobile sidebar"
+  },
+  "theme.navbar.mobileSidebarSecondaryMenu.backButtonLabel": {
+    "message": "← Перейти к главному меню",
+    "description": "The label of the back button to return to main menu, inside the mobile navbar sidebar secondary menu (notably used to display the docs sidebar)"
   },
   "theme.docs.sidebar.toggleSidebarButtonAriaLabel": {
     "message": "Переключить навигационную панель",
-    "description": "ARIA-метка для кнопки гамбургера мобильной навигации"
+    "description": "The ARIA label for hamburger menu button of mobile navigation"
   },
   "theme.docs.sidebar.expandButtonTitle": {
     "message": "Развернуть сайдбар",
-    "description": "ARIA-метка и заголовок для кнопки разворачивания боковой панели документации"
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.docs.sidebar.expandButtonAriaLabel": {
     "message": "Развернуть сайдбар",
-    "description": "ARIA-метка и заголовок для кнопки разворачивания боковой панели документации"
+    "description": "The ARIA label and title attribute for expand button of doc sidebar"
   },
   "theme.ErrorPageContent.tryAgain": {
     "message": "Попробуйте ещё раз",
-    "description": "Метка кнопки повторной попытки рендеринга, когда обработчик ошибок React перехватывает ошибку"
+    "description": "The label of the button to try again rendering when the React error boundary captures an error"
   },
   "theme.common.skipToMainContent": {
     "message": "Перейти к основному содержимому",
-    "description": "Метка для пропуска содержимого для улучшения доступности, позволяющая быстро перейти к основному содержимому с помощью клавиши Tab/Enter на клавиатуре"
+    "description": "The skip to content label used for accessibility, allowing to rapidly navigate to main content with keyboard tab/enter navigation"
   },
   "theme.tags.tagsPageTitle": {
     "message": "Теги",
-    "description": "Заголовок страницы списка тегов"
+    "description": "The title of the tag list page"
   },
   "theme.unlistedContent.title": {
-    "message": "Неопубликованная страница",
-    "description": "Заголовок баннера неопубликованного контента"
+    "message": "Unlisted page",
+    "description": "The unlisted content banner title"
   },
   "theme.unlistedContent.message": {
-    "message": "Эта страница неопубликована. Поисковые системы не будут её индексировать, и только пользователи с прямой ссылкой могут получить к ней доступ.",
-    "description": "Сообщение баннера неопубликованного контента"
+    "message": "This page is unlisted. Search engines will not index it, and only users having a direct link can access it.",
+    "description": "The unlisted content banner message"
   }
 }
