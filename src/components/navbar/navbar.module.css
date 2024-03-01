@@ -8,9 +8,12 @@
   /* background: #001219; */
   backdrop-filter: blur(4px);
   transition: all 0.5s ease;
+  z-index: 99;
 }
 .inner {
-  max-width: 1200px;
+  max-width: 1224px;
+  padding-right: 12px;
+  padding-left: 12px;
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -30,6 +33,7 @@
   align-items: center;
   border-radius: 8px;
   background: #eaf4f4;
+  border: none;
 }
 .btn p {
   color: var(--black, #001219);
