@@ -181,7 +181,11 @@ export default function Project() {
                 </Translate>
               </p>
             </div>
-            <a href="#" className={styles.contactsBtn}>
+            <a
+              target="_blank"
+              href="https://t.me/circleuz"
+              className={styles.contactsBtn}
+            >
               <p>
                 <Translate>Type in telegram</Translate>
               </p>

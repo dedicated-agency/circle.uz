@@ -26,7 +26,7 @@ export default function Footer({ isWhite }: Props) {
             </p>
           ))}
         </div>
-        <p className={styles.company}>©2024 Decode Academy</p>
+        <p className={styles.company}>©2024 Circle Academy</p>
       </div>
     </footer>
   );
