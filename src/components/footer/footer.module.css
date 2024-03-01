@@ -1,0 +1,45 @@
+.footer {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  transition: all 0.5s ease;
+  border-top: 1px solid #eaf4f4;
+}
+.inner {
+  max-width: 1200px;
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  padding-top: 12px;
+  align-items: center;
+  padding-bottom: 12px;
+}
+.routes {
+  display: flex;
+  gap: 24px;
+}
+.route {
+  color: #6c757d;
+  font-family: Inter;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: -0.14px;
+}
+.company {
+  color: #6c757d;
+  text-align: right;
+  font-family: "Inter";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 160%; /* 22.4px */
+  letter-spacing: -0.14px;
+}
+@media (max-width: 425px) {
+  .inner {
+    flex-direction: column;
+    gap: 10px;
+  }
+}
