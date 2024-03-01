@@ -1,11 +1,14 @@
 import useDocusaurusContext from "@docusaurus/useDocusaurusContext";
 import React from "react";
 import styles from "./index.module.css";
+//@ts-ignore
 import designFile1 from "../../static/img/designFile1.png";
+//@ts-ignore
 import designFile2 from "../../static/img/designFile2.png";
+//@ts-ignore
 import challange1 from "../../static/img/challange1.png";
+//@ts-ignore
 import challange2 from "../../static/img/challange2.png";
-import marktImage from "../../static/img/marktImage.png";
 import Navbar from "../components/navbar";
 import { useInView } from "react-intersection-observer";
 import Footer from "../components/footer";
@@ -312,7 +315,12 @@ export default function Home(): JSX.Element {
                 If you have any questions, we are glad to answer them 👋
               </Translate>
             </p>
-            <button className={styles.questions_button}>
+
+            <a
+              target="_blank"
+              href="https://t.me/circleuz"
+              className={styles.questions_button}
+            >
               <Translate>Type in telegram</Translate>
               <svg
                 width="23"
@@ -327,7 +335,7 @@ export default function Home(): JSX.Element {
                   fill="white"
                 />
               </svg>
-            </button>
+            </a>
           </section>
         </div>
         <Footer />
