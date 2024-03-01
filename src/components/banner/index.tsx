@@ -6,7 +6,7 @@ interface Props {
 export default function Banner({ image }: Props) {
   return (
     <div className={styles.banner}>
-      <img className={styles.img} src={image} />
+      <img className={styles.img} src={image} alt={image} />
     </div>
   );
 }

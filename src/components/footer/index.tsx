@@ -1,18 +1,32 @@
 import React from "react";
 import styles from "./footer.module.css";
-const routes = ["Help", "About", "Contacts", "Socials"];
-export default function Footer() {
+import Translate from "@docusaurus/Translate";
+interface Props {
+  isWhite?: boolean;
+}
+export default function Footer({ isWhite }: Props) {
+  const routes = [
+    { id: 1, title: <Translate>Help</Translate> },
+    { id: 2, title: <Translate>About</Translate> },
+    { id: 3, title: <Translate>Contacts</Translate> },
+    { id: 3, title: <Translate>Socials</Translate> },
+  ];
   return (
-    <footer className={styles.footer}>
+    <footer
+      style={{
+        background: isWhite ? "#FFF" : "transparent",
+      }}
+      className={styles.footer}
+    >
       <div className={styles.inner}>
         <div className={styles.routes}>
           {routes.map((item, index) => (
             <p className={styles.route} key={index}>
-              {item}
+              {item.title}
             </p>
           ))}
         </div>
-        <p className={styles.company}>©2023 Decode Academy</p>
+        <p className={styles.company}>©2024 Decode Academy</p>
       </div>
     </footer>
   );

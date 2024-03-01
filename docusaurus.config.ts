@@ -3,7 +3,7 @@ import type { Config } from "@docusaurus/types";
 import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
-  title: "amaliyotSpace",
+  title: "Circle",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
 
@@ -16,17 +16,27 @@ const config: Config = {
   // GitHub pages deployment config.
   // If you aren't using GitHub pages, you don't need these.
   organizationName: "Dedicated", // Usually your GitHub org/user name.
-  projectName: "amaliyotSpace", // Usually your repo name.
-
-  onBrokenLinks: "throw",
+  projectName: "Circle", // Usually your repo name.
+  onBrokenLinks: "warn",
   onBrokenMarkdownLinks: "warn",
 
   // Even if you don't use internationalization, you can use this field to set
   // useful metadata like html lang. For example, if your site is Chinese, you
   // may want to replace "en" with "zh-Hans".
   i18n: {
-    defaultLocale: "en",
-    locales: ["en"],
+    defaultLocale: "uz",
+    locales: ["en", "uz", "ru"],
+    localeConfigs: {
+      en: {
+        htmlLang: "en-GB",
+      },
+      uz: {
+        htmlLang: "uz",
+      },
+      ru: {
+        htmlLang: "ru",
+      },
+    },
   },
 
   presets: [
@@ -56,12 +66,12 @@ const config: Config = {
 
   themeConfig: {
     // Replace with your project's social card
-    image: "img/docusaurus-social-card.jpg",
+    image: "img/favicon.ico",
     navbar: {
-      title: "Amaliyot Space",
+      title: "Circle",
       logo: {
         alt: "My Site Logo",
-        src: "img/logo.svg",
+        src: "img/favicon.ico",
       },
       items: [
         {
