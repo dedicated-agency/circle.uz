@@ -6,6 +6,7 @@ const config: Config = {
   title: "Circle",
   tagline: "Dinosaurs are cool",
   favicon: "img/favicon.ico",
+  scripts: [{ src: "/js/script.js", defer: true, "data-domain": "circle.uz" }],
 
   // Set the production url of your site here
   url: "https://your-docusaurus-site.example.com",
