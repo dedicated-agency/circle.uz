@@ -393,9 +393,6 @@
 }
 .markt_text_button:hover {
   color: var(--white, #fff);
-  font-size: 18px;
-  font-weight: 500;
-  line-height: 140%;
   text-decoration: none;
   opacity: 0.9;
 }
@@ -531,6 +528,7 @@
     border-radius: 12px;
     border: 1px solid var(--light-gray, #eaf4f4);
     margin-bottom: 6px;
+    font-size: 12px;
   }
 
   .design_text_buttons_btn + .design_text_buttons_btn {
@@ -584,6 +582,7 @@
     border-radius: 12px;
     border: 1px solid var(--light-gray, #eaf4f4);
     margin-bottom: 6px;
+    font-size: 12px;
   }
 
   .challange_text_buttons_btn + .challange_text_buttons_btn {
@@ -659,7 +658,6 @@
 
   .markt_text_button {
     margin-top: 22px;
-
     padding: 8px;
     font-size: 14px;
   }

@@ -34,6 +34,10 @@
   border-radius: 8px;
   background: #eaf4f4;
   border: none;
+  cursor: pointer;
+}
+.btn:hover {
+  opacity: 0.9;
 }
 .btn p {
   color: var(--black, #001219);
