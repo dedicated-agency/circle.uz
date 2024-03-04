@@ -26,12 +26,11 @@ export default function Home(): JSX.Element {
         <section className={styles.container}>
           <div className={styles.text}>
             <h1 className={styles.text_title}>
-              <Translate>Make your coding skills better</Translate>
+              <Translate>breaking the vicious circle</Translate>
             </h1>
             <p className={styles.text_description}>
               <Translate>
-                We provide the opportunity to significantly improve your coding
-                skills with our open source file
+                get working experience by building real world applications
               </Translate>
             </p>
             <div className={styles.text_buttons}>
@@ -87,7 +86,7 @@ export default function Home(): JSX.Element {
             <div className={styles.design}>
               <div className={styles.design_text}>
                 <p className={styles.design_text_title}>
-                  <Translate>Design file</Translate>
+                  <Translate>Problem</Translate>
                   <svg
                     width="32"
                     height="32"
@@ -107,18 +106,17 @@ export default function Home(): JSX.Element {
                 </p>
                 <p className={styles.design_text_description}>
                   <Translate>
-                    We provide the opportunity to significantly improve your
-                    coding skills with our open source file. We provide the
-                    opportunity to significantly improve your coding skills with
-                    our open source file.
+                    We have noticed junior developers lacks experience
+                    delivering real-world project, with lots of small tweaks,
+                    details and most importantly complete business logic.
                   </Translate>
                 </p>
                 <p className={styles.design_text_description}>
                   <Translate>
-                    We provide the opportunity to significantly improve your
-                    coding skills with our open source file. We provide the
-                    opportunity to significantly improve your coding skills with
-                    our open source file.
+                    As they learn programming from beginner and technical
+                    perspective, digging deeper into a problem from business
+                    perspective is skipped, meaning features looks incomplete
+                    and barely tested
                   </Translate>
                 </p>
                 <div className={styles.design_text_buttons}>
@@ -173,7 +171,7 @@ export default function Home(): JSX.Element {
             </div>
             <div className={styles.challange_text}>
               <p className={styles.challange_text_title}>
-                <Translate>Challanges on platform</Translate>
+                <Translate>Audience</Translate>
                 <svg
                   width="32"
                   height="33"
@@ -194,32 +192,37 @@ export default function Home(): JSX.Element {
               </p>
               <p className={styles.challange_text_description}>
                 <Translate>
-                  We provide the opportunity to significantly improve your
-                  coding skills with our open source file. We provide the
-                  opportunity to significantly improve your coding skills with
-                  our open source file.
+                  How to get a job without experience How to get an experience
+                  without job
                 </Translate>
               </p>
               <p className={styles.challange_text_description}>
                 <Translate>
-                  We provide the opportunity to significantly improve your
-                  coding skills with our open source file. We provide the
-                  opportunity to significantly improve your coding skills with
-                  our open source file.
+                  It is designed for juniors who have base knowledge on their
+                  stack: programming language, standard framework usage
+                  experience, but do not have commercial experience yet.
+                </Translate>
+              </p>
+              <p className={styles.challange_text_description}>
+                <Translate>
+                  The projects in the platform are best suited for those who at
+                  least finished a course on the stack (If not checkout any free
+                  courses) and ready to gain extra skills needed at commercial
+                  level.
                 </Translate>
               </p>
               <div className={styles.challange_text_buttons}>
                 <button className={styles.challange_text_buttons_btn}>
-                  <Translate>Web</Translate>
+                  <Translate>ReactJs</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  <Translate>MobileWeb</Translate>
+                  <Translate>Front End</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  <Translate>Components</Translate>
+                  <Translate>Back End</Translate>
                 </button>
                 <button className={styles.challange_text_buttons_btn}>
-                  <Translate>Dark theme</Translate>
+                  <Translate>API settings</Translate>
                 </button>
               </div>
             </div>
@@ -243,8 +246,15 @@ export default function Home(): JSX.Element {
             </h3>
             <p className={styles.community_description}>
               <Translate>
-                We provide the opportunity to significantly improve your coding
-                skills with our open source file. We provide the opportunity
+                Collection of resources, recommendations on self learning and
+                improving skills in tech, mainly focusing on practical aspects.
+              </Translate>
+            </p>
+            <p className={styles.community_description}>
+              <Translate>
+                Authors on platform share their experience on how to solve
+                problems, ideas on how to do certain functionality, new topics
+                to research and etc
               </Translate>
             </p>
             <a
@@ -284,7 +294,7 @@ export default function Home(): JSX.Element {
                   <Translate>UI Design</Translate>
                 </li>
                 <li className={styles.markt_text_list_item}>
-                  <Translate>MobileWeb</Translate>
+                  <Translate>Mobile Web</Translate>
                 </li>
                 <li className={styles.markt_text_list_item}>
                   <Translate>Style Guide</Translate>
