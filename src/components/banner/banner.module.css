@@ -1,10 +1,8 @@
-.banner {
-  width: 100%;
-  border-radius: 25px;
-  box-shadow: 0px 0px 0px 8px var(--light-gray, #eaf4f4);
-}
 .img {
   width: 100%;
   height: max-content;
+
+  margin-top: 10px;
   border-radius: 25px;
+  box-shadow: 0px 0px 0px 8px #eaf4f4;
 }

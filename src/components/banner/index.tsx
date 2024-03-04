@@ -4,9 +4,5 @@ interface Props {
   image: string;
 }
 export default function Banner({ image }: Props) {
-  return (
-    <div className={styles.banner}>
-      <img className={styles.img} src={image} alt={image} />
-    </div>
-  );
+  return <img className={styles.img} src={image} alt={image} />;
 }
