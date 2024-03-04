@@ -32,7 +32,7 @@
 .company {
   color: #6c757d;
   text-align: right;
-  font-family: "Inter";
+
   font-size: 14px;
   font-style: normal;
   font-weight: 400;
@@ -41,7 +41,24 @@
 }
 @media (max-width: 425px) {
   .inner {
-    flex-direction: column;
-    gap: 10px;
+    padding: 10px 14px;
+  }
+  .routes {
+    display: flex;
+    gap: 12px;
+  }
+  .route {
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 17.6px */
+    letter-spacing: -0.11px;
+  }
+  .company {
+    font-size: 8px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%; /* 17.6px */
+    letter-spacing: -0.11px;
   }
 }

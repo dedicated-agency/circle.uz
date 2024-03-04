@@ -177,7 +177,7 @@ export default function Project() {
               </h4>
               <p>
                 <Translate>
-                  If you have any questions, we are glad to answer them 👋
+                  If you have any questions, we are glad to answer them
                 </Translate>
               </p>
             </div>
