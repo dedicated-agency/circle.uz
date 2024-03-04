@@ -63,6 +63,11 @@
   line-height: 140%; /* 19.6px */
   padding: 12px 12px 12px 24px;
 }
+.text_buttons_explore:hover {
+  color: var(--linear, #080809);
+  opacity: 0.9;
+  text-decoration: none;
+}
 .text_buttons_explore_icon {
   margin-left: 12px;
   width: 20px;
@@ -261,13 +266,17 @@
 }
 .community_description {
   color: var(--gray, #6c757d);
-  text-align: center;
+  text-align: left;
   font-size: 18px;
   font-weight: 400;
   line-height: 140%; /* 25.2px */
   max-width: 568px;
   margin-right: auto;
   margin-left: auto;
+}
+
+.community_description + .community_description {
+  margin-top: 8px;
 }
 
 .community_button {
@@ -287,6 +296,11 @@
   margin-right: auto;
   margin-left: auto;
   border: none;
+}
+.community_button:hover {
+  color: var(--white, #fff);
+  text-decoration: none;
+  opacity: 0.9;
 }
 
 .community_button_icon {
@@ -401,6 +415,12 @@
   line-height: 140%; /* 25.2px */
   letter-spacing: -1px;
   margin-top: 32px;
+}
+.questions_button:hover {
+  color: var(--white, #fff);
+  letter-spacing: -1px;
+  opacity: 0.9;
+  text-decoration: none;
 }
 .questions_button_icon {
   margin-left: 12px;

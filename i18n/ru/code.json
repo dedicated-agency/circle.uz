@@ -1,9 +1,9 @@
 {
-  "Make your coding skills better": {
-    "message": "Make your coding skills better"
+  "breaking the vicious circle": {
+    "message": "breaking the vicious circle"
   },
-  "We provide the opportunity to significantly improve your coding skills with our open source file": {
-    "message": "We provide the opportunity to significantly improve your coding skills with our open source file"
+  "get working experience by building real world applications": {
+    "message": "get working experience by building real world applications"
   },
   "Explore": {
     "message": "Explore"
@@ -14,11 +14,14 @@
   "How does it work?": {
     "message": "How does it work?"
   },
-  "Design file": {
-    "message": "Design file"
+  "Problem": {
+    "message": "Problem"
   },
-  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
-    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file."
+  "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic.": {
+    "message": "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic."
+  },
+  "As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested": {
+    "message": "As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested"
   },
   "Web": {
     "message": "Web"
@@ -32,14 +35,27 @@
   "Dark theme": {
     "message": "Dark theme"
   },
-  "Challanges on platform": {
-    "message": "Challanges on platform"
+  "Audience": {
+    "message": "Audience"
+  },
+
+  "How to get a job without experience How to get an experience without job": {
+    "message": "How to get a job without experience <-> How to get an experience without job"
+  },
+  "It is designed for juniors who have base knowledge on their stack: programming language, standard framework usage experience, but do not have commercial experience yet.": {
+    "message": "It is designed for juniors who have base knowledge on their stack: programming language, standard framework usage experience, but do not have commercial experience yet."
+  },
+  "The projects in the platform are best suited for those who at least finished a course on the stack (If not checkout any free courses) and ready to gain extra skills needed at commercial level.": {
+    "message": "The projects in the platform are best suited for those who at least finished a course on the stack (If not checkout any free courses) and ready to gain extra skills needed at commercial level."
   },
   "Community": {
     "message": "Community"
   },
-  "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity": {
-    "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity"
+  "Collection of resources, recommendations on self learning and improving skills in tech, mainly focusing on practical aspects.": {
+    "message": "Collection of resources, recommendations on self learning and improving skills in tech, mainly focusing on practical aspects."
+  },
+  "Authors on platform share their experience on how to solve problems, ideas on how to do certain functionality, new topics to research and etc": {
+    "message": "Authors on platform share their experience on how to solve problems, ideas on how to do certain functionality, new topics to research and etc"
   },
   "Join the community": {
     "message": "Join the community"
