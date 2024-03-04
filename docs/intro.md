@@ -15,9 +15,9 @@ sidebar_position: 1
 - postman bilan ishlay olish (requestlarni korib tekshirish uchun)
 - albatta programmist uchun eng muhimi, google yoki boshqa internet resurslar orqali mustaqil tarzda ma'lumotlarni qidirshga hohishingiz
 
-# Start
+## Proekt init
 
-birinchi navbatda o'z proektingizni init qilib olganizdan so'ng, ko'dingiz uchun [githubda](https://github.com/) repository ochishingizni maslaxat beraman. 
+birinchi navbatda o'z frameworkingiz uchun proektingizni init qilib olganizdan so'ng, ko'dingiz uchun [githubda](https://github.com/) repository ochishingizni maslaxat beraman. 
 
 https://www.nobledesktop.com/learn/git/what-is-git
 
@@ -53,6 +53,7 @@ batafsil qilib aytganda
 `git push -u origin main` barcha commitlarni githubdagi repositordagi "main" branchaga saqlayabdi.
 
 
+## Figma
 
 kod yozishni boshlashdan oldin birinchi navbatda figma dizayni ochib butun proekt qanday tuzilgan va unda nimalar bolishi kerakligini bir sitra ko’rib chiqishni maslaxat beraman. bunday qilish uchun figma dizaynga kirganingizda ong-chap burchakda play ikonkani bosasiz va live previewni ochasiz.
 
