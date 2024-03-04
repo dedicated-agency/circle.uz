@@ -9,6 +9,7 @@
     --gradient,
     linear-gradient(113deg, #01161e 0.62%, #080809 76.96%)
   );
+  padding-bottom: 24px;
 }
 
 .container {
@@ -36,6 +37,7 @@
   line-height: 120%; /* 103.2px */
   margin-bottom: 32px;
   max-width: 838px;
+  text-transform: capitalize;
 }
 .text_description {
   color: #fafafa;
@@ -266,7 +268,8 @@
 }
 .community_description {
   color: var(--gray, #6c757d);
-  text-align: left;
+  text-align: center;
+
   font-size: 18px;
   font-weight: 400;
   line-height: 140%; /* 25.2px */

@@ -172,9 +172,9 @@ export default function Project() {
           </section>
           <section className={styles.contacts}>
             <div className={styles.contactsContainer}>
-              <h3>
+              <h4>
                 <Translate>Have any questions?</Translate>
-              </h3>
+              </h4>
               <p>
                 <Translate>
                   If you have any questions, we are glad to answer them 👋
