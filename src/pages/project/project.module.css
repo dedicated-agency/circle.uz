@@ -57,7 +57,7 @@
 }
 .artcleTitle {
   color: var(--black, #001219);
-  font-family: "Inter";
+
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -65,7 +65,7 @@
 }
 .artcleDescription {
   color: #6c757d;
-  font-family: "Inter";
+
   font-size: 20px;
   font-style: normal;
   font-weight: 400;
@@ -93,7 +93,7 @@
 .startProjectHeader h2 {
   color: #001219;
   text-align: center;
-  font-family: "Inter";
+
   font-size: 64px;
   font-style: normal;
   font-weight: 700;
@@ -102,7 +102,7 @@
 .startProjectHeader p {
   color: #6c757d;
   text-align: center;
-  font-family: "Inter";
+
   font-size: 24px;
   font-style: normal;
   font-weight: 500;
@@ -157,7 +157,7 @@
   color: #d8e2dc;
   text-align: center;
   align-self: center;
-  font-family: "Inter";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -166,7 +166,7 @@
 .projectTitle {
   color: var(--black, #001219);
   text-align: center;
-  font-family: "Inter";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 600;
@@ -180,7 +180,7 @@
 }
 .projectsLeftContainerText {
   color: #6c757d;
-  font-family: "Inter";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 400;
@@ -189,7 +189,7 @@
 }
 .projectsLeftContainerTitle {
   color: #001219;
-  font-family: "Inter";
+
   font-size: 32px;
   font-style: normal;
   font-weight: 700;
@@ -208,7 +208,7 @@
 }
 .projectsLeftBtnTitle {
   color: #fff;
-  font-family: "Inter";
+
   font-size: 16px;
   font-style: normal;
   font-weight: 500;
@@ -236,7 +236,7 @@
 .contactsContainer h4 {
   color: #001219;
   text-align: center;
-  font-family: "Inter";
+
   font-size: 48px;
   font-style: normal;
   font-weight: 700;
@@ -245,7 +245,7 @@
 .contactsContainer p {
   color: #6c757d;
   text-align: center;
-  font-family: "Inter";
+
   font-size: 18px;
   font-style: normal;
   font-weight: 400;
@@ -262,7 +262,7 @@
 }
 .contactsBtn p {
   color: #fff;
-  font-family: "Inter";
+
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
@@ -327,7 +327,7 @@
   .startProjectHeader h2 {
     color: #001219;
     text-align: center;
-    font-family: "Inter";
+
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -336,7 +336,7 @@
   .startProjectHeader p {
     color: #6c757d;
     text-align: center;
-    font-family: "Inter";
+
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
@@ -354,7 +354,7 @@
   .contactsContainer h4 {
     color: #001219;
     text-align: center;
-    font-family: "Inter";
+
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
@@ -362,7 +362,7 @@
   }
   .projectsLeftContainerText {
     color: #6c757d;
-    font-family: "Inter";
+
     font-size: 14px;
     font-style: normal;
     font-weight: 400;
@@ -371,7 +371,7 @@
   }
   .projectsLeftContainerTitle {
     color: #001219;
-    font-family: "Inter";
+
     font-size: 28px;
     font-style: normal;
     font-weight: 700;
