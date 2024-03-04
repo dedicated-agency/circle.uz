@@ -41,9 +41,16 @@ buning uchun o'z code redactoringizga o'tib terminalni ochamiz va shu comandalar
 git init
 git add .
 git commit -m "birinchi commit"
-git remote add origin https://${sizning repositoriyingizga bo'lgan ssilka}
+git remote add origin https://${sizning repositoriyingizga bo'lgan ssilkangiz}.git
 git push -u origin main
 ```
+
+batafsil qilib aytganda 
+`git init` butun proektingiz uchun gitni ishga tushurib uni sozlayabdi.
+`git add .` sizning barcha faylardagi o'zgarishlarni saqlab qo'yyabdi. 
+`git commit -m "birinchi commit"` saqlagan o'zgarishlaringizga nom berib ularni bir commitda yig'yapdi.
+`git remote add origin` siz ko'rsatayotgan repositoryni o'zgarishlarni yuklaydigon joy deb belgilayabdi. Ssilkani githubda repoitoryga kirganingizda tepada, shu repositoryga olib kiradigan adress Url yozilgan joydan ko'chirib olishingiz mumkin
+`git push -u origin main` barcha commitlarni githubdagi repositordagi "main" branchaga saqlayabdi.
 
 
 
