@@ -4,12 +4,12 @@ import type * as Preset from "@docusaurus/preset-classic";
 
 const config: Config = {
   title: "Circle",
-  tagline: "Dinosaurs are cool",
+  tagline: "Circle are cool",
   favicon: "img/favicon.ico",
   scripts: [{ src: "/js/script.js", defer: true, "data-domain": "circle.uz" }],
 
   // Set the production url of your site here
-  url: "https://your-docusaurus-site.example.com",
+  url: "https://circle.uz",
   // Set the /<baseUrl>/ pathname under which your site is served
   // For GitHub pages deployment, it is often '/<projectName>/'
   baseUrl: "/",
@@ -50,12 +50,12 @@ const config: Config = {
           // Remove this to remove the "edit this page" links.
           editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
         },
-        blog: {
-          showReadingTime: true,
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
-        },
+        // blog: {
+        //   showReadingTime: true,
+        //   // Please change this to your repo.
+        //   // Remove this to remove the "edit this page" links.
+        //   editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
+        // },
         theme: {
           customCss: "./src/css/custom.css",
         },
@@ -79,7 +79,7 @@ const config: Config = {
           position: "left",
           label: "Tutorials",
         },
-        { to: "/blog", label: "Blog", position: "left" },
+        // { to: "/blog", label: "Blog", position: "left" },
         // {
         //   href: "https://github.com/facebook/docusaurus",
         //   label: "GitHub",
@@ -104,7 +104,7 @@ const config: Config = {
           items: [
             {
               label: "Telegram",
-              href: "https://stackoverflow.com/questions/tagged/docusaurus",
+              href: "https://t.me/circleuz",
             },
             // {
             //   label: "Discord",
@@ -119,18 +119,19 @@ const config: Config = {
         {
           title: "More",
           items: [
-            {
-              label: "Blog",
-              to: "/blog",
-            },
+            // {
+            //   label: "Blog",
+            //   to: "/blog",
+            // },
             {
               label: "GitHub",
-              href: "https://github.com/facebook/docusaurus",
+              href: "https://gitlab.com/dedicated-group/rivoj-platform",
             },
           ],
         },
       ],
-      copyright: `Copyright © ${new Date().getFullYear()} My Project, Inc. Built with Docusaurus.`,
+      // logo: { src: "img/favicon.ico" },
+      copyright: `Copyright © ${new Date().getFullYear()} Dedicated.agency`,
     },
     prism: {
       theme: prismThemes.github,
