@@ -62,5 +62,3 @@ kod yozishni boshlashdan oldin birinchi navbatda figma dizayni ochib butun proek
 live previewda siz butun saytni brauzerda interactiv korishinishda ko’ra olasiz. Uyerdagi knopkalarni bosib ekranlarni korinish ketma ketligi va qaysi holatda nima korsatishi kerakligini bilib olasiz. bu yol bilan siz kod yozishdan avval sahifalar ketma-ketligiyu, holatlarini organib chigiq, so’ng reja tuzib olsangiz, keyin kutilmagan holatlarda uni ozgartirib otirmaslikka va tog’ri arxitektura tanlashga yordam beradi.
 
 
-
-
