@@ -63,4 +63,15 @@
   .title {
     display: none;
   }
+  .btn {
+    display: flex;
+    padding: 8px 14px;
+    border-radius: 8px;
+  }
+  .btn p {
+    font-size: 10px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%;
+  }
 }

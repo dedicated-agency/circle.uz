@@ -79,8 +79,8 @@
   "Have any questions?": {
     "message": "Savollar bormi?"
   },
-  "If you have any questions, we are glad to answer them 👋": {
-    "message": "Agar sizda savollar bo'lsa, ularni javoblashdan mamnun bo'lamiz 👋"
+  "If you have any questions, we are glad to answer them": {
+    "message": "Agar sizda savollar bo'lsa, ularni javoblashdan mamnun bo'lamiz"
   },
   "Type in telegram": {
     "message": "Telegramda yozing"

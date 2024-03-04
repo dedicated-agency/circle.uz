@@ -13,7 +13,7 @@
   max-width: 1200px;
   color: var(--white, #fff);
   text-align: center;
-  /* font-family: Play; */
+  font-family: "Inter";
   font-size: 86px;
   font-style: normal;
   font-weight: 400;
@@ -289,12 +289,11 @@
   .articleBanners {
     width: "100%";
     display: flex;
-    flex-direction: column;
-    gap: 24px;
+    gap: 12px;
   }
   .startProject {
     width: 100%;
-    margin-top: 102px;
+    margin-top: 100px;
     display: flex;
     flex-direction: column;
     gap: 30px;
@@ -310,7 +309,7 @@
     gap: 32px;
   }
   .projectsRight {
-    display: none;
+    /* display: none; */
   }
   .projectsLeft {
     width: 100%;
@@ -318,52 +317,121 @@
 }
 @media (max-width: 425px) {
   .title {
-    max-width: 500px;
-    font-size: 32px;
+    max-width: 343px;
+    text-align: center;
+    font-size: 48px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 120%;
   }
   .main {
-    padding: 100px 16px 200px 16px;
+    padding: 40px 16px 164px 16px;
+    margin-top: -60px;
+  }
+  .header {
+    width: 100%;
+    height: 100dvh;
+    background: url("../../../static/img/banner.png");
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .articles {
+    margin-top: 32px;
+    gap: 32px;
+  }
+  .article {
+    gap: 32px;
+  }
+  .artcleTitle {
+    font-size: 24px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 140%; /* 33.6px */
+  }
+  .artcleDescription {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
+  }
+  .startProjectHeader {
+    gap: 0px;
   }
   .startProjectHeader h2 {
-    color: #001219;
-    text-align: center;
-
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
     line-height: 140%; /* 89.6px */
   }
   .startProjectHeader p {
-    color: #6c757d;
-    text-align: center;
-
     font-size: 16px;
     font-style: normal;
     font-weight: 500;
-    line-height: 140%; /* 33.6px */
+    line-height: 140%;
   }
   .projects {
     width: 100%;
-    border-radius: 25px;
-    background: #fff;
-    box-shadow: 0px 0px 0px 8px #eaf4f4;
+    border-radius: 16px;
+    background: var(--white, #fff);
+    box-shadow: 0px 0px 0px 4px var(--light-gray, #eaf4f4);
     padding: 12px;
     display: flex;
     gap: 32px;
   }
-  .contactsContainer h4 {
-    color: #001219;
-    text-align: center;
 
+  .projectsLeftSwitchBlock {
+    width: 50%;
+    height: 36px;
+    display: flex;
+    width: 161px;
+    padding: 8px 24px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    border-radius: 25px;
+    border: 1px solid #07059a;
+    background: #fafafa;
+  }
+  .inActiveSwitch {
+    width: 50%;
+    height: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #fafafa;
+    border-top-right-radius: 25px;
+    border-bottom-right-radius: 25px;
+    gap: 5px;
+  }
+  .projectTitle {
+    color: var(--black, #001219);
+    text-align: center;
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.196px;
+  }
+  .contacts {
+    margin-top: 100px;
+  }
+  .contactsContainer h4 {
     font-size: 32px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 67.2px */
+    line-height: 140%;
+  }
+  .contactsContainer p {
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 160%;
   }
   .projectsLeftContainerText {
     color: #6c757d;
 
-    font-size: 14px;
+    font-size: 16px;
     font-style: normal;
     font-weight: 400;
     line-height: 160%; /* 25.6px */
@@ -372,10 +440,24 @@
   .projectsLeftContainerTitle {
     color: #001219;
 
-    font-size: 28px;
+    font-size: 24px;
     font-style: normal;
     font-weight: 700;
-    line-height: 140%; /* 44.8px */
+    line-height: 140%; /* 33.6px */
     letter-spacing: -1px;
+  }
+  .inActiveProjectTitle {
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.196px;
+  }
+  .projectsLeftBtnTitle {
+    font-size: 14px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 140%; /* 19.6px */
+    letter-spacing: -0.196px;
   }
 }
