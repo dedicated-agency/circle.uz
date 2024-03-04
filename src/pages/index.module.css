@@ -128,6 +128,7 @@
   line-height: 140%; /* 44.8px */
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 }
 .design_text_title_svg {
   width: 32px;
@@ -157,6 +158,11 @@
   border: 2px solid var(--light-gray, #eaf4f4);
   background: var(--light-gray, #eaf4f4);
   margin-bottom: 8px;
+  color: var(--gray, #6c757d);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  text-transform: capitalize;
 }
 
 .design_text_buttons_btn + .design_text_buttons_btn {
@@ -202,6 +208,7 @@
   line-height: 140%; /* 44.8px */
   display: flex;
   align-items: center;
+  margin-bottom: 16px;
 }
 .challange_text_title_svg {
   width: 32px;
@@ -231,6 +238,11 @@
   border: 2px solid var(--light-gray, #eaf4f4);
   background: var(--light-gray, #eaf4f4);
   margin-bottom: 8px;
+  color: var(--gray, #6c757d);
+  font-size: 14px;
+  font-weight: 500;
+  line-height: 140%; /* 19.6px */
+  text-transform: capitalize;
 }
 
 .challange_text_buttons_btn + .challange_text_buttons_btn {
@@ -265,6 +277,14 @@
   font-weight: 700;
   line-height: 140%; /* 44.8px */
   margin-bottom: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.community_title_svg {
+  width: 32px;
+  height: 32px;
+  margin-left: 12px;
 }
 .community_description {
   color: var(--gray, #6c757d);
