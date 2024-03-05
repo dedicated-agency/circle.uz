@@ -57,7 +57,7 @@
 }
 @media (max-width: 425px) {
   .inner {
-    max-width: 300px;
+    max-width: 500px;
     padding-left: 10px;
     padding-right: 10px;
   }
