@@ -108,32 +108,27 @@ export default function Home(): JSX.Element {
                   </svg>
                 </p>
                 <p className={styles.design_text_description}>
-                  <Translate>
-                    We have noticed junior developers lacks experience
-                    delivering real-world project, with lots of small tweaks,
-                    details and most importantly complete business logic.
-                  </Translate>
-                </p>
-                <p className={styles.design_text_description}>
-                  <Translate>
-                    As they learn programming from beginner and technical
-                    perspective, digging deeper into a problem from business
-                    perspective is skipped, meaning features looks incomplete
-                    and barely tested
-                  </Translate>
+                  <Translate>problemDescription1</Translate>
+                  <a
+                    target="_blank"
+                    href="https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev"
+                  >
+                    dizayn
+                  </a>
+                  <Translate>problemDescription2</Translate>
                 </p>
                 <div className={styles.design_text_buttons}>
                   <button className={styles.design_text_buttons_btn}>
                     <Translate>Web</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    <Translate>MobileWeb</Translate>
+                    <Translate>Frontend</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    <Translate>Components</Translate>
+                    <Translate>Mobile</Translate>
                   </button>
                   <button className={styles.design_text_buttons_btn}>
-                    <Translate>Dark theme</Translate>
+                    <Translate>Backend</Translate>
                   </button>
                 </div>
               </div>
@@ -143,6 +138,7 @@ export default function Home(): JSX.Element {
                     className={styles.design_image_top_img}
                     src={designFile1}
                     alt="design files image"
+                    loading="lazy"
                   />
                 </div>
                 <div className={styles.design_image_bottom}>
@@ -150,6 +146,7 @@ export default function Home(): JSX.Element {
                     className={styles.design_image_bottom_img}
                     src={designFile2}
                     alt="design files image"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -162,6 +159,7 @@ export default function Home(): JSX.Element {
                   className={styles.challange_image_top_img}
                   src={challange2}
                   alt="challange files image"
+                  loading="lazy"
                 />
               </div>
               <div className={styles.challange_image_bottom}>
@@ -169,6 +167,7 @@ export default function Home(): JSX.Element {
                   className={styles.challange_image_bottom_img}
                   src={challange1}
                   alt="challange files image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -193,12 +192,7 @@ export default function Home(): JSX.Element {
                   />
                 </svg>
               </p>
-              <p className={styles.challange_text_description}>
-                <Translate>
-                  How to get a job without experience How to get an experience
-                  without job
-                </Translate>
-              </p>
+
               <p className={styles.challange_text_description}>
                 <Translate>
                   It is designed for juniors who have base knowledge on their
@@ -206,15 +200,8 @@ export default function Home(): JSX.Element {
                   experience, but do not have commercial experience yet.
                 </Translate>
               </p>
-              <p className={styles.challange_text_description}>
-                <Translate>
-                  The projects in the platform are best suited for those who at
-                  least finished a course on the stack (If not checkout any free
-                  courses) and ready to gain extra skills needed at commercial
-                  level.
-                </Translate>
-              </p>
-              <div className={styles.challange_text_buttons}>
+
+              {/* <div className={styles.challange_text_buttons}>
                 <button className={styles.challange_text_buttons_btn}>
                   <Translate>ReactJs</Translate>
                 </button>
@@ -227,10 +214,10 @@ export default function Home(): JSX.Element {
                 <button className={styles.challange_text_buttons_btn}>
                   <Translate>API settings</Translate>
                 </button>
-              </div>
+              </div> */}
             </div>
           </section>
-          <section className={styles.community}>
+          {/* <section className={styles.community}>
             <h3 className={styles.community_title}>
               <Translate>Community</Translate>
               <svg
@@ -283,7 +270,7 @@ export default function Home(): JSX.Element {
                 />
               </svg>
             </a>
-          </section>
+          </section> */}
           <section className={styles.markt}>
             <div className={styles.markt_text}>
               <p className={styles.markt_text_title}>
@@ -327,7 +314,11 @@ export default function Home(): JSX.Element {
               </a>
             </div>
             <div className={styles.markt_back_image}>
-              <img src={marktBackImage} alt="design files image" />
+              <img
+                src={marktBackImage}
+                alt="design files image"
+                loading="lazy"
+              />
             </div>
           </section>
           <section className={styles.questions}>
@@ -342,7 +333,7 @@ export default function Home(): JSX.Element {
 
             <a
               target="_blank"
-              href="https://t.me/circleuz"
+              href="https://t.me/circleuz_chat"
               className={styles.questions_button}
             >
               <Translate>Type in telegram</Translate>
