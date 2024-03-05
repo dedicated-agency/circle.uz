@@ -48,7 +48,7 @@ const config: Config = {
           sidebarPath: "./sidebars.ts",
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
-          editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
+          editUrl: "https://github.com/dedicated-agency/circle.uz/tree/main",
         },
         // blog: {
         //   showReadingTime: true,
@@ -125,7 +125,7 @@ const config: Config = {
             // },
             {
               label: "GitHub",
-              href: "https://gitlab.com/dedicated-group/rivoj-platform",
+              href: "https://github.com/dedicated-agency/circle.uz",
             },
           ],
         },
