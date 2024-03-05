@@ -317,7 +317,7 @@
 }
 @media (max-width: 425px) {
   .title {
-    max-width: 343px;
+    max-width: 300px;
     text-align: center;
     font-size: 48px;
     font-style: normal;
@@ -335,6 +335,9 @@
     display: flex;
     justify-content: center;
     align-items: center;
+  }
+  .about {
+    max-width: 300px;
   }
   .articles {
     margin-top: 32px;
