@@ -25,9 +25,11 @@
   width: 100%;
   display: flex;
   justify-content: center;
-  padding: 100px 0px 200px 0px;
+  flex-direction: column;
+  padding: 100px 0px 0px 0px;
   border-radius: 25px 25px 0px 0px;
   background-color: white;
+  gap: 200px;
 }
 .container {
   max-width: 1200px;
@@ -306,7 +308,8 @@
     font-size: 72px;
   }
   .main {
-    padding: 100px 20px 200px 20px;
+    padding: 100px 20px 0px 20px;
+    gap: 200px;
   }
 }
 @media (max-width: 1024px) {
@@ -315,7 +318,7 @@
     font-size: 48px;
   }
   .main {
-    padding: 100px 16px 200px 16px;
+    padding: 100px 16px 0px 16px;
   }
 
   .startProject {
@@ -349,7 +352,8 @@
     line-height: 120%;
   }
   .main {
-    padding: 40px 16px 164px 16px;
+    padding: 40px 16px 0px 16px;
+    gap: 164px;
     margin-top: -60px;
     border-radius: 16px;
     background: linear-gradient(180deg, #f2f7fb 0%, #fff 100%);
