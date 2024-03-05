@@ -1,6 +1,6 @@
 ---
-sidebar_label: "Category Page"
-sidebar_position: 3
+sidebar_label: "Product Page"
+sidebar_position: 4
 ---
 
 headerdagi logikani keginroqqa olib qoysak ham boladi

@@ -49,6 +49,12 @@ https://cli.vuejs.org/guide/mode-and-env.html#environment-variables
 
 https://angular.io/guide/build#configuring-application-environments 
 
+biz codimizda turib baseUrl ni ishlatishimiz uchun .env faylga
+
+`BASE_URL=https://api.markt.circle.uz/api` 
+
+degan variableni yozamiz
+
 
 api degan papka ochib u yerga backend bilan muloqot qilish uchun kerakli funksiyalarni yozib qoya boshlasak boladi. 
 menda odatda api folder shunday tuzulishda boladi:
@@ -71,7 +77,11 @@ bizning holatda tashqariga olib chiqilgan index fileda birgina funkisya ozgarish
 backend requestlarni sinash uchun promotovarlarni olib korishga harakat qilsak boladi.
 categoriyalarni olgosangiz keyin yangi tovarlar seksiyasi uchun reqest qilsangiz boladi. 
 
-performance uchun yana bir maslaxat, korishingiz boyicha categoriyalar va yengi tovarlar seksiyasi bizning saytga kirishimiz bilan  birinchi koradigan seksiyalarimiz emas. shuning uchun biz bu seksiyalarni lazy load qilsak boladi ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
+performance uchun yana bir maslaxat, korishingiz boyicha categoriyalar va yengi tovarlar seksiyasi bizning saytga kirishimiz bilan  birinchi koradigan seksiyalarimiz emas. 
+
+![Figma preview](./img/home_lazy_sections_demo.png)
+
+shuning uchun biz bu seksiyalarni lazy load qilsak boladi ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
 
 Intersections observer link:
 https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
