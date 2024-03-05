@@ -3,12 +3,19 @@ import styles from "./banner.module.css";
 interface Props {
   image: string;
   mob_image?: string;
+  mob_height?: number;
 }
-export default function Banner({ image, mob_image }: Props) {
+export default function Banner({ image, mob_height }: Props) {
   return (
     <picture>
-      <source media="(max-width:425px)" srcSet={mob_image} />
-      <img className={styles.img} src={image} alt={image} />
+      <img
+        style={{
+          maxHeight: mob_height,
+        }}
+        className={styles.img}
+        src={image}
+        alt={image}
+      />
     </picture>
   );
 }

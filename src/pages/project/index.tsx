@@ -3,17 +3,11 @@ import styles from "./project.module.css";
 //@ts-ignore
 import banner1 from "../../../static/img/banner1.png";
 //@ts-ignore
-import Mobbanner1 from "../../../static/img/mob_banner1.png";
 import Banner from "../../components/banner/index";
 //@ts-ignore
 import banner2 from "../../../static/img/banner2.png";
 //@ts-ignore
-import Mobbanner2 from "../../../static/img/mob_banner2.png";
-//@ts-ignore
 import banner3 from "../../../static/img/banner3.png";
-//@ts-ignore
-
-import Mobbanner3 from "../../../static/img/mob_banner3.png";
 //@ts-ignore
 import startProject from "../../../static/img/startProject.png";
 import Navbar from "../../components/navbar";
@@ -38,7 +32,7 @@ export default function Project() {
       <main className={styles.main}>
         <div className={styles.container}>
           <section className={styles.about}>
-            <Banner mob_image={Mobbanner1} image={banner1} />
+            <Banner mob_height={200} image={banner1} />
             <section className={styles.articles}>
               <div className={styles.article}>
                 <div className={styles.articleContainer}>
@@ -61,7 +55,7 @@ export default function Project() {
                   </p>
                 </div>
 
-                <Banner mob_image={Mobbanner2} image={banner2} />
+                <Banner mob_height={180} image={banner2} />
               </div>
               <div className={styles.article}>
                 <div className={styles.articleContainer}>
@@ -83,10 +77,10 @@ export default function Project() {
                 </div>
                 <div className={styles.articleBanners}>
                   <div>
-                    <Banner image={banner3} mob_image={Mobbanner3} />
+                    <Banner mob_height={93} image={banner3} />
                   </div>
                   <div>
-                    <Banner image={banner3} mob_image={Mobbanner3} />
+                    <Banner mob_height={93} image={banner3} />
                   </div>
                 </div>
                 <p className={styles.artcleDescription}>
