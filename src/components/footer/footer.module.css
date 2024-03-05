@@ -39,6 +39,9 @@
   line-height: 160%; /* 22.4px */
   letter-spacing: -0.14px;
 }
+.company_link {
+  text-decoration: underline;
+}
 @media (max-width: 425px) {
   .inner {
     padding: 10px 14px;
