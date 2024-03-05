@@ -3,6 +3,8 @@ import styles from "./index.module.css";
 //@ts-ignore
 import designFile1 from "../../static/img/designFile1.png";
 //@ts-ignore
+import marktBackImage from "../../static/img/marktMobImage.png";
+//@ts-ignore
 import designFile2 from "../../static/img/designFile2.png";
 //@ts-ignore
 import challange1 from "../../static/img/challange1.png";
@@ -323,6 +325,9 @@ export default function Home(): JSX.Element {
                   />
                 </svg>
               </a>
+            </div>
+            <div className={styles.markt_back_image}>
+              <img src={marktBackImage} alt="design files image" />
             </div>
           </section>
           <section className={styles.questions}>
