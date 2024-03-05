@@ -6,7 +6,11 @@ sidebar_position: 2
 routingni qura boshlaymiz. boshidan har bir routni qoymasdan, ish jarayoni sari qoshib boramiz. 
 birinchi main page ya’ni  `/` dan boshlaymiz va uni vyorstkaisga otamiz
 
-korishingiz boyicha bizning har bir ekranimiza bir hil header va footer ishlatilgan. bundan kelib chiqib biz har bir ekran uchun bitta layout(ekranlarimizni orab turadigan qobiq) component yaratib olsak boladi. bu yol bilan biz kodni ajratlishi va qayta takrorlavermasligiga erishamiz. kelajakda barcha ko’p takrorlanadigan elementlarga shu yolni qollashni maslaxat beraman.
+korishingiz boyicha bizning har bir ekranimiza bir hil header va footer ishlatilgan. bundan kelib chiqib biz har bir ekran uchun bitta layout(ekranlarimizni orab turadigan qobiq) component yaratib olsak boladi.
+
+![Figma preview](./img/template_demo.png)
+
+Bu yol bilan biz kodni ajratlishi va qayta takrorlavermasligiga erishamiz. kelajakda barcha ko’p takrorlanadigan elementlarga shu yolni qollashni maslaxat beraman.
  
 korishingiz boyicha bizda media kontent kam emas shuning uchun saytimiz performance ni boshidan oylab `lazy loading` uchun packagela otqazamiz 
 
@@ -65,7 +69,9 @@ bizning holatda tashqariga olib chiqilgan index fileda birgina funkisya ozgarish
 
 
 backend requestlarni sinash uchun promotovarlarni olib korishga harakat qilsak boladi.
-categoriyalarni olgosangiz keyin yangi tovarlar seksiyasi uchun reqest qilsangiz boladi. performance uchun yana bir maslaxat, korishingiz boyicha categoriyalar va yengi tovarlar seksiyasi bisning saytga kirishimiz bilan  birinchi koradigan seksiyalarimiz emas. shuning uchun biz bu seksiyalarni lazy load qilsak boladi ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
+categoriyalarni olgosangiz keyin yangi tovarlar seksiyasi uchun reqest qilsangiz boladi. 
+
+performance uchun yana bir maslaxat, korishingiz boyicha categoriyalar va yengi tovarlar seksiyasi bizning saytga kirishimiz bilan  birinchi koradigan seksiyalarimiz emas. shuning uchun biz bu seksiyalarni lazy load qilsak boladi ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
 
 Intersections observer link:
 https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
