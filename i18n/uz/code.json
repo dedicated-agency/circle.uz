@@ -17,7 +17,7 @@
   "Problem": {
     "message": "Muammo"
   },
-  "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic. As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested": {
+  "problemDescription": {
     "message": "Loyiha qurib tajriba ortiring. Buning uchun saytda dizan fayl (<a target='_blank' href='https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev'>**put link for design**</a>) va proek uchun izoh tuzib chiqganmiz. O'rganish asnosida boshlovchi dasturchi o'zi uchun kop yangi mavzularni o'zlashtirishi, bilganlarini katta loyihada mustahkamlashi hamda biznes jihatlarini ham o'rganishini umid qilib qolamiz"
   },
   "Web": {
@@ -65,6 +65,21 @@
   "About project": {
     "message": "Loyiha haqida"
   },
+  "aboutText": {
+    "message": "Markt 2.0 - bu texnika mahsulotlari, elektron qurilmalar sotadigan tijorat web sayti. Unda asosiy va ommalashgan xarid qilish funksiyalari mavjud. Dinamik asosiy sahifasi, mahsulotlar katalogi, bir necha darajalik turkumlar va unda qidiruv va filter tizimi. Savat -> To'lov -> Profil sahifalari ketmaketligi va boshqalar."
+  },
+  "aboutText2": {
+    "message": "To'lov qismi uchun o'zimiz test uchun sistema tayyorlaganmiz, real pul va karta ishlatilmaydi"
+  },
+  "plan": {
+    "message": "Reja"
+  },
+  "articleDescriptionTop": {
+    "message": "Figma dizan faylni ko'rib chiqing. Kerakli resurslar uchun linklar saytda to'plangan. Loyihani bajarishga vaqt ajratib to'liq bitirishni tavsiya etamiz. Chunki haqiqiy mashaqqat mayda qismlarini qilayotga chiqadi. Figma dizan faylni ko'rib ozingizga qulay tarzda ish ketma-ketligni tuzsangiz bo'ladi, yoki bizning mualliflarimiz tavsiyalarini <a target='_blank'>[o'qisangiz boladi]</a>"
+  },
+  "articleDescriptionBottom": {
+    "message": "Proekt boshlashda o'zingiz yo'nalishingizga tegishli boilerplate bilan boshlaganingiz yaxshi. Unda aksar loyihalarda ishlatish mumkin bo'lgan sozlamalar va papka tuzilishi tayyor qilingan."
+  },
   "Have any questions?": {
     "message": "Savollar bormi?"
   },
@@ -81,7 +96,7 @@
     "message": "Yordam"
   },
   "About": {
-    "message": "Haqida"
+    "message": "Loyiha haqida"
   },
   "Contacts": {
     "message": "Aloqa"
@@ -92,18 +107,87 @@
   "We provide the opportunity to significantly": {
     "message": "Biz aniq imkoniyatni taqdim qilamiz"
   },
+  "projectTitle": {
+    "message": "Loyihadan foydalar"
+  },
+  "projectDescription": {
+    "message": "Dasturchi yo'nalishiga kora, kim qanday mavzularni o'zlashtirishi"
+  },
   "Start project": {
     "message": "Loyiha boshlash"
   },
-  "You can start the project as a FrontEnd or BackEnd developer.": {
+
+  "You can start project as a FrontEnd or BackEnd developer.": {
     "message": "Siz loyiha FrontEnd yoki BackEnd dasturchisi sifatida boshlashingiz mumkin."
   },
-
   "Backend (soon)": {
-    "message": "Backend (tez orada)"
+    "message": "Backend (yaqinda)"
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
     "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
+  },
+  "frontend_title": {
+    "message": "Dasturchi quyidagilarni loyiha asnosida o'zlashtiradi"
+  },
+  "frontend_one": {
+    "message": "1. UI framework (react, vue, angular)"
+  },
+  "frontend_one1": {
+    "message": "state va props"
+  },
+  "frontend_one2": {
+    "message": "lifecycle-events"
+  },
+  "frontend_one3": {
+    "message": "hooks"
+  },
+  "frontend_one4": {
+    "message": "component decomposition"
+  },
+  "frontend_two": {
+    "message": "2. store"
+  },
+  "frontend_two1": {
+    "message": "saving user details, cart"
+  },
+  "frontend_two2": {
+    "message": "localeStorage, sessionStorage"
+  },
+  "frontend_three": {
+    "message": "3. ssr + routing"
+  },
+  "frontend_three1": {
+    "message": "SEO"
+  },
+  "frontend_three2": {
+    "message": "protected routes"
+  },
+  "frontend_four": {
+    "message": "4. API requests"
+  },
+  "frontend_four1": {
+    "message": "CRUD"
+  },
+  "frontend_four2": {
+    "message": "auth (JWT token)"
+  },
+  "frontend_four3": {
+    "message": "interceptor"
+  },
+  "frontend_four4": {
+    "message": "pagination"
+  },
+  "frontend_five": {
+    "message": "5. general:"
+  },
+  "frontend_five1": {
+    "message": "data structures"
+  },
+  "frontend_five2": {
+    "message": "multi lang: i18n"
+  },
+  "frontend_five3": {
+    "message": "deployment & production configuration"
   },
   "theme.ErrorPageContent.title": {
     "message": "Ushbu sahifa xatolandi.",
@@ -418,8 +502,5 @@
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
     "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
-  },
-  "You can start project as a FrontEnd or BackEnd developer.": {
-    "message": "You can start project as a FrontEnd or BackEnd developer."
   }
 }
