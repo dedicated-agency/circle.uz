@@ -3,7 +3,7 @@ sidebar_label: "Home Page"
 sidebar_position: 2
 ---
 
-routingni qura boshlaymiz. boshidan har bir routni qoymasdan, ish jarayoni sari qoshib boramiz. 
+routingni qura boshlaymiz. boshidan har bir routni qo'ymasdan, ish jarayoni sari qo'shib boramiz. 
 birinchi main page ya’ni  `/` dan boshlaymiz va uni vyorstkaisga otamiz
 
 korishingiz boyicha bizning har bir ekranimiza bir hil header va footer ishlatilgan. bundan kelib chiqib biz har bir ekran uchun bitta layout(ekranlarimizni orab turadigan qobiq) component yaratib olsak boladi.
@@ -63,25 +63,25 @@ menda odatda api folder shunday tuzulishda boladi:
 
 index.ts fileda men faqatgina request qila oladigan funksiya yoki object yaratib olaman va qolgan papkalarni vazifa boyicha bolib chiqman. `catalog` bilan ishlaydigan requestlarni `catalog` papkaga, `product` bilan ishlaydigan requestlarni `product` papkaga. uning vazifasi berilgan parametrlar, metodlar va  siz bergan pathni .env fayldagin baseUrl bilan bog’lash orqali
 backendga request yuborish va statuslarni yoki kelgan data orqali error yoki togri response qaytarsh.
-bunday funksiya bizga qobiq bolib hizmat qiladi. agar tushunmagan bolsangiz hozir osonroq tushuntirib beraman
+bunday funksiya bizga qobiq bolib hizmat qiladi. agar tushunmagan bo'lsangiz hozir osonroq tushuntirib beraman
 
 tassavvur qiling siz bu yo’l bilan yozmay, har bir  API requestni component yoki boshqa joy ichida `fetch` orqali yozib chiqdingiz,
 kelajakda sizga: avtorizatsiya uchun  local storagedan token olib qoyish kerak deyishdi. 
 bu holatda siz harbir yozgan funksiyangizni ozgartirib chiqasiz.  (mayli nima qilibdi deyishingiz mumkin :p)
 
-undan kegin teamlidingiz kelib: fetch eski bolib qoldi, fetchni yangiroq axiosga ozgartiraylik desa. yana ozgartirasiz. bu ketishda, muntazam kodni ozgartirishingiz sababli yoki UI qism bilan kodinigiz aralashib ketishi: kod xunuk yoki tushunarsiz holatga olib keladi. 
+undan kegin teamlidingiz kelib: fetch eski bo'lib qoldi, fetchni yangiroq axiosga o'zgartiraylik desa. yana o'zgartirasiz. bu ketishda, muntazam kodni ozgartirishingiz sababli yoki UI qism bilan kodinigiz aralashib ketishi: kod xunuk yoki tushunarsiz holatga olib keladi. 
 
-bizning holatda tashqariga olib chiqilgan index fileda birgina funkisya ozgarishi butun `codebase` ni ishlashiga tasir qiladi, fetchni orniga axios qoysangizham, errorlani tekshiruvini ozgartirsangizham. sizni index filingiz bir ish qiladi u backendga request yuboradi undan ortiq emas, agar kodni togri yozsangiz u oz qolgan joylarham togri ishlaydi.
+bizning holatda tashqariga olib chiqilgan index fileda birgina funkisya ozgarishi butun `codebase` ni ishlashiga tasir qiladi, fetchni orniga axios qoysangizham, errorlani tekshiruvini ozgartirsangizham. sizni index filingiz bir ish qiladi u backendga request yuboradi undan ortiq emas, agar kodni togri yozsangiz qolgan joylardaham to'g'ri ishlaydi.
 
 
-backend requestlarni sinash uchun promotovarlarni olib korishga harakat qilsak boladi.
-categoriyalarni olgosangiz keyin yangi tovarlar seksiyasi uchun reqest qilsangiz boladi. 
+backend requestlarni sinash uchun promotovarlarni olib ko'rishga harakat qilsak bo'ladi.
+categoriyalarni olganingizdan kegin yangi tovarlar seksiyasi uchun reqest qilsangiz bo'ladi. 
 
-performance uchun yana bir maslaxat, korishingiz boyicha categoriyalar va yengi tovarlar seksiyasi bizning saytga kirishimiz bilan  birinchi koradigan seksiyalarimiz emas. 
+performance uchun yana bir maslaxat, ko'rishingiz bo'yicha categoriyalar va yengi tovarlar seksiyasi bizning saytga kirishimiz bilan birinchi ko'zga tushadigan seksiyalarimiz emas. 
 
 ![Figma preview](./img/home_lazy_sections_demo.png)
 
-shuning uchun biz bu seksiyalarni lazy load qilsak boladi ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
+shuning uchun biz bu seksiyalarni lazy load qilsak boladi, ya’ni ularni faqatgina client shu seksiyalarga qarab scroll qilganda render qilamiz va backendga request yuboramiz
 
 Intersections observer link:
 https://developer.mozilla.org/en-US/docs/Web/API/Intersection_Observer_API
