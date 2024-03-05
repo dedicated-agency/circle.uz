@@ -229,8 +229,8 @@ export default function Project() {
             </a>
           </section>
         </div>
+        <Footer isWhite />
       </main>
-      <Footer isWhite />
     </div>
   );
 }
