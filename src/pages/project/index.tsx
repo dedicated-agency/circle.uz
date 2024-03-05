@@ -110,61 +110,41 @@ export default function Project() {
                     <Translate>frontend_one</Translate>
                   </p>
                   <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_one1</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_one2</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_one3</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_one4</Translate>
+                    <Translate>frontend_one1</Translate>,
+                    <Translate>frontend_one2</Translate>,
+                    <Translate>frontend_one3</Translate>,
+                    <Translate>frontend_one4</Translate>.
                   </p>
                   <p className={styles.projectsLeftContainerText}>
                     <Translate>frontend_two</Translate>
                   </p>
                   <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_two1</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_two2</Translate>
+                    <Translate>frontend_two1</Translate>,
+                    <Translate>frontend_two2</Translate>.
                   </p>
                   <p className={styles.projectsLeftContainerText}>
                     <Translate>frontend_three</Translate>
                   </p>
                   <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_three1</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_three2</Translate>
+                    <Translate>frontend_three1</Translate>,
+                    <Translate>frontend_three2</Translate>.
                   </p>
                   <p className={styles.projectsLeftContainerText}>
                     <Translate>frontend_four</Translate>
-                    <p className={styles.projectsLeftContainerTextItem}>
-                      <Translate>frontend_four1</Translate>
-                    </p>
-                    <p className={styles.projectsLeftContainerTextItem}>
-                      <Translate>frontend_four2</Translate>
-                    </p>
-                    <p className={styles.projectsLeftContainerTextItem}>
-                      <Translate>frontend_four3</Translate>
-                    </p>
-                    <p className={styles.projectsLeftContainerTextItem}>
-                      <Translate>frontend_four4</Translate>
-                    </p>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_four1</Translate>,
+                    <Translate>frontend_four2</Translate>,
+                    <Translate>frontend_four3</Translate>,
+                    <Translate>frontend_four4</Translate>.
                   </p>
                   <p className={styles.projectsLeftContainerText}>
                     <Translate>frontend_five</Translate>
                   </p>
                   <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_five1</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_five2</Translate>
-                  </p>
-                  <p className={styles.projectsLeftContainerTextItem}>
-                    <Translate>frontend_five3</Translate>
+                    <Translate>frontend_five1</Translate>,
+                    <Translate>frontend_five2</Translate>,
+                    <Translate>frontend_five3</Translate>.
                   </p>
                 </div>
                 <button
@@ -187,6 +167,9 @@ export default function Project() {
                 </h3>
                 <p className={styles.artcleDescription}>
                   <Translate>articleDescriptionTop</Translate>
+                  <a target="_blank" href="/docs/intro.md">
+                    <Translate>articleDescriptionTopFigmaLink</Translate>
+                  </a>
                 </p>
               </div>
               <div className={styles.articleBanners}>
