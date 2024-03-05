@@ -171,26 +171,28 @@
 
 .design_image {
   flex: 1;
+  width: 100%;
 }
 .design_image_top {
   position: relative;
   z-index: 2;
-  max-width: 397px;
-  max-height: 233px;
   margin-left: auto;
+  width: 66%;
 }
 .design_image_bottom {
-  transform: translateY(-50%);
-  margin-bottom: -110px;
   margin-left: 32px;
-  max-width: 364px;
-  max-height: 197px;
+  width: 60%;
+  margin-top: 0;
+  transform: translateY(-50%);
 }
-.design_image_top_img,
+.design_image_top_img {
+  width: 100%;
+  height: auto;
+}
 .design_image_bottom_img {
-  border-radius: 12px;
+  width: 100%;
+  height: auto;
 }
-
 .challange {
   margin-top: 140px;
   display: grid;
@@ -250,21 +252,17 @@
 }
 
 .challange_image_top {
-  min-width: 497px;
-  min-height: 189px;
-  text-align: right;
+  width: 83%;
   position: relative;
   z-index: 2;
   margin-right: 32px;
+  margin-left: auto;
 }
 .challange_image_bottom {
-  max-width: 456px;
-  max-height: 147px;
-  transform: translateY(-32%);
-}
-.challange_image_top_img,
-.challenge_image_bottom_img {
-  border-radius: 12px;
+  width: 76%;
+  display: inline-block;
+  margin-top: 0;
+  transform: translateY(-40%);
 }
 
 .community {
@@ -402,6 +400,10 @@
   width: 20px;
 }
 
+.markt_back_image {
+  display: none;
+}
+
 .questions {
   text-align: center;
   margin-top: 200px;
@@ -451,40 +453,45 @@
 @media (max-width: 768px) {
   .text {
     position: absolute;
-    top: 40%;
+    top: 50%;
     transform: translateY(-50%);
   }
   .text_title {
-    font-size: 32px;
+    font-size: 48px;
     margin-bottom: 16px;
   }
   .text_description {
-    font-size: 14px;
+    font-size: 18px;
   }
   .text_buttons {
-    margin-top: 21px;
+    margin-top: 49px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-right: 12px;
   }
   .text_buttons_explore {
-    font-size: 12px;
-    padding: 8px 8px 8px 12px;
+    font-size: 14px;
+    padding: 10px 10px 10px 18px;
+    border-radius: 8px;
   }
   .text_buttons_explore_icon {
-    margin-left: 8px;
-    width: 12px;
-    height: 12px;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
   }
   .text_buttons_join {
-    margin-left: 20px;
-    font-size: 12px;
+    margin-left: 0;
+    font-size: 14px;
   }
   .text_buttons_join_icon {
     margin-left: 4px;
-    width: 12px;
-    height: 12px;
+    width: 20px;
+    height: 20px;
   }
 
   .main_wrapper {
-    max-width: calc(100vw - 24px);
+    max-width: calc(100vw);
     border-radius: 16px;
     padding-top: 60px;
     transform: translateY(-60px);
@@ -505,7 +512,7 @@
   }
 
   .design_text_title {
-    font-size: 18px;
+    font-size: 24px;
   }
   .design_text_title_svg {
     width: 20px;
@@ -514,43 +521,42 @@
   }
 
   .design_text_description {
-    font-size: 14px;
+    font-size: 16px;
   }
   .design_text_description + .design_text_description {
     margin-top: 4px;
   }
 
   .design_text_buttons {
-    margin-top: 20px;
+    margin-top: 24px;
   }
   .design_text_buttons_btn {
-    padding: 4px 12px;
-    border-radius: 12px;
-    border: 1px solid var(--light-gray, #eaf4f4);
-    margin-bottom: 6px;
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid var(--light-gray, #eaf4f4);
+    margin-bottom: 4px;
     font-size: 12px;
   }
 
   .design_text_buttons_btn + .design_text_buttons_btn {
-    margin-left: 6px;
+    margin-left: 8px;
   }
 
   .design_image_top {
-    display: block;
-    max-width: auto;
-    max-height: auto;
+    width: 70%;
   }
   .design_image_bottom {
-    transform: none;
-    margin: 0;
-    max-width: auto;
-    max-height: auto;
+    margin-left: 0;
+    width: 65%;
+    display: inline-block;
+    transform: translateY(-50%);
   }
 
   .challange {
-    margin-top: 60px;
+    margin-top: 10px;
     display: flex;
     flex-direction: column-reverse;
+    border: 1px solid reds;
   }
 
   .challange_text {
@@ -558,7 +564,7 @@
   }
 
   .challange_text_title {
-    font-size: 18px;
+    font-size: 24px;
   }
   .challange_text_title_svg {
     width: 20px;
@@ -568,124 +574,141 @@
 
   .challange_text_description {
     color: var(--gray, #6c757d);
-    font-size: 14px;
+    font-size: 16px;
   }
   .challange_text_description + .challange_text_description {
     margin-top: 6px;
   }
 
   .challange_text_buttons {
-    margin-top: 20px;
+    margin-top: 24px;
   }
   .challange_text_buttons_btn {
-    padding: 4px 12px;
-    border-radius: 12px;
-    border: 1px solid var(--light-gray, #eaf4f4);
-    margin-bottom: 6px;
+    padding: 6px 18px;
+    border-radius: 25px;
+    border: 2px solid var(--light-gray, #eaf4f4);
+    margin-bottom: 4px;
     font-size: 12px;
   }
 
   .challange_text_buttons_btn + .challange_text_buttons_btn {
-    margin-left: 6px;
+    margin-left: 8px;
   }
 
   .challange_image {
     margin-top: 32px;
   }
   .challange_image_top {
-    min-width: auto;
-    min-height: auto;
-    position: relative;
     margin-right: 0;
-    width: 100%;
+    width: 70%;
+    margin-left: auto;
   }
   .challange_image_bottom {
-    margin-top: 12px;
-    max-width: auto;
-    max-height: auto;
-    transform: none;
+    margin-top: 0;
+    width: 65%;
+    display: inline-block;
+    transform: translateY(-50%);
   }
 
   .community {
-    margin-top: 120px;
+    margin-top: 10px;
   }
   .community_title {
-    font-size: 18px;
-    margin-bottom: 12px;
+    font-size: 24px;
+    margin-bottom: 16px;
+  }
+  .community_title_svg {
+    width: 20px;
+    height: 20px;
+    margin-left: 10px;
   }
   .community_description {
     font-size: 14px;
   }
 
   .community_button {
-    padding: 8px 8px 8px 12px;
-    font-size: 12px;
-    margin-top: 12px;
+    padding: 12px 12px 12px 24px;
+    font-size: 14px;
+    margin-top: 24px;
+    border-radius: 8px;
   }
 
   .community_button_icon {
-    margin-left: 8px;
-    width: 12px;
-    height: 12px;
+    margin-left: 12px;
+    width: 20px;
+    height: 20px;
   }
 
   .markt {
-    margin-top: 120px;
+    margin-top: 100px;
     border-radius: 25px;
-    background-position: center;
+    background-position: bottom center;
+    box-shadow: 0px 0px 0px 5px rgba(216, 226, 220, 0.5);
     background-image: none;
+    display: block;
+    padding-bottom: 16px;
   }
   .markt_text {
-    padding: 12px;
+    padding: 32px;
   }
 
   .markt_text_title {
-    font-size: 32px;
+    font-size: 48px;
   }
   .markt_text_description {
-    margin-top: 12px;
+    margin-top: 24px;
     font-size: 24px;
   }
   .markt_text_list {
-    margin-top: 18px;
+    margin-top: 32px;
   }
   .markt_text_list_item + .markt_text_list_item {
-    margin-top: 12px;
+    margin-top: 16px;
   }
   .markt_text_list_item {
-    font-size: 16px;
+    font-size: 18px;
   }
 
   .markt_text_button {
-    margin-top: 22px;
-    padding: 8px;
+    margin-top: 32px;
+    padding: 12px 12px 12px 18px;
     font-size: 14px;
+    display: flex;
+    align-items: center;
+    max-width: 160px;
   }
   .markt_text_button_icon {
-    margin-left: 6px;
-    height: 12px;
-    width: 12px;
+    margin-left: 12px;
+    height: 20px;
+    width: 20px;
+  }
+
+  .markt_back_image {
+    display: block;
+    width: 100%;
+    margin-top: -12px;
+    text-align: center;
   }
 
   .questions {
-    margin-top: 80px;
-    padding-bottom: 120px;
+    margin-top: 150px;
+    padding-bottom: 160px;
   }
   .questions_title {
-    font-size: 18px;
+    font-size: 32px;
   }
   .questions_description {
-    font-size: 14px;
+    font-size: 16px;
   }
   .questions_button {
-    margin-top: 12px;
-    padding: 12px 16px;
-    border-radius: 25px;
-    font-size: 14px;
+    margin-top: 24px;
+    padding: 16px 24px;
+    border-radius: 35px;
+    font-size: 16px;
   }
   .questions_button_icon {
-    margin-left: 8px;
-    width: 15px;
-    height: 14px;
+    margin-left: 12px;
+    width: 20px;
+    height: 18px;
   }
 }
