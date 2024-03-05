@@ -151,6 +151,7 @@
   display: flex;
   align-items: center;
   flex-wrap: wrap;
+  margin-left: -8px;
 }
 .design_text_buttons_btn {
   padding: 8px 24px;
@@ -163,9 +164,6 @@
   font-weight: 500;
   line-height: 140%; /* 19.6px */
   text-transform: capitalize;
-}
-
-.design_text_buttons_btn + .design_text_buttons_btn {
   margin-left: 8px;
 }
 

@@ -10,7 +10,7 @@ export default function Banner({ image, mob_height }: Props) {
     <picture>
       <img
         style={{
-          maxHeight: mob_height,
+          maxHeight: window.innerWidth < 425 ? mob_height : "100%",
         }}
         className={styles.img}
         src={image}

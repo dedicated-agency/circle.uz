@@ -19,7 +19,7 @@ export default function Footer({ isWhite }: Props) {
       className={styles.footer}
     >
       <div className={styles.inner}>
-        <div className={styles.routes}>
+        {/* <div className={styles.routes}>
           {routes.map((item, index) => (
             <a
               target="_blank"
@@ -30,8 +30,17 @@ export default function Footer({ isWhite }: Props) {
               {item.title}
             </a>
           ))}
-        </div>
-        <p className={styles.company}>Copyright © 2024 Dedicated.agency</p>
+        </div> */}
+        <p className={styles.company}>
+          Copyright © 2024{" "}
+          <a
+            className={styles.company_link}
+            target="_blank"
+            href="https://dedicated.agency/"
+          >
+            dedicated.agency
+          </a>
+        </p>
       </div>
     </footer>
   );

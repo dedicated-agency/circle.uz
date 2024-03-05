@@ -1,15 +1,15 @@
 {
   "breaking the vicious circle": {
-    "message": "shafqatsiz doirani buzish"
+    "message": "real loyihalarda amaliyot"
   },
   "get working experience by building real world applications": {
-    "message": "Real dunyo ilovalarini yaratish orqali ish tajribasiga ega bo'ling"
+    "message": "Dasturlash uchun kerak tajriba oling"
   },
   "Explore": {
-    "message": "O'rganing"
+    "message": "Boshlash"
   },
   "Join our community": {
-    "message": "Jamoa bilan qo'shiling"
+    "message": "Jamoaga qo'shiling"
   },
   "How does it work?": {
     "message": "Bu qanday ishlaydi?"
@@ -17,35 +17,26 @@
   "Problem": {
     "message": "Muammo"
   },
-  "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic.": {
-    "message": "Biz kichik ishlab chiquvchilarda ko'plab kichik o'zgarishlar, tafsilotlar va eng muhimi, to'liq biznes mantig'iga ega bo'lgan haqiqiy loyihalarni taqdim etish tajribasiga ega emasligini payqadik."
-  },
-  "As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested": {
-    "message": "Ular dasturlashni boshlang'ich va texnik nuqtai nazardan o'rganar ekan, biznes nuqtai nazaridan muammoni chuqurroq o'rganish o'tkazib yuboriladi, ya'ni xususiyatlar to'liq emas va zo'rg'a sinovdan o'tgan ko'rinadi."
+  "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic. As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested": {
+    "message": "Loyiha qurib tajriba ortiring. Buning uchun saytda dizan fayl (<a target='_blank' href='https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev'>**put link for design**</a>) va proek uchun izoh tuzib chiqganmiz. O'rganish asnosida boshlovchi dasturchi o'zi uchun kop yangi mavzularni o'zlashtirishi, bilganlarini katta loyihada mustahkamlashi hamda biznes jihatlarini ham o'rganishini umid qilib qolamiz"
   },
   "Web": {
     "message": "Web"
   },
-  "MobileWeb": {
-    "message": "Mobil Web"
+  "Frontend": {
+    "message": "Frontend"
   },
-  "Components": {
-    "message": "Komponentlar"
+  "Mobile": {
+    "message": "Mobile"
   },
-  "Dark theme": {
-    "message": "Qora mavzusi"
+  "Backend": {
+    "message": "Backend"
   },
   "Audience": {
-    "message": "Tomoshabinlar"
-  },
-  "How to get a job without experience How to get an experience without job": {
-    "message": "Qanday qilib tajribasiz ishga kirish mumkin <-> Ishsiz qanday qilib tajribaga ega bo'lish mumkin"
+    "message": "Kim uchun"
   },
   "It is designed for juniors who have base knowledge on their stack: programming language, standard framework usage experience, but do not have commercial experience yet.": {
-    "message": "U o'z stekidagi asosiy bilimlarga ega bo'lgan o'smirlar uchun mo'ljallangan: dasturlash tili, standart ramkadan foydalanish tajribasi, lekin hali tijorat tajribasiga ega emas."
-  },
-  "The projects in the platform are best suited for those who at least finished a course on the stack (If not checkout any free courses) and ready to gain extra skills needed at commercial level.": {
-    "message": "Platformadagi loyihalar hech bo'lmaganda stack bo'yicha kursni tugatganlar (agar bepul kurslarni tekshirmasangiz) va tijorat darajasida zarur bo'lgan qo'shimcha ko'nikmalarga ega bo'lishga tayyor bo'lganlar uchun eng mos keladi."
+    "message": "U o'z stekidagi boshlang'ich bilimlarga ega bo'lgan dasturchilar uchun mo'ljallangan: dasturlash tili,"
   },
   "Community": {
     "message": "Jamoa"
@@ -57,7 +48,7 @@
     "message": "Platforma mualliflari muammolarni qanday hal qilish bo'yicha o'z tajribalari, ma'lum funktsiyalarni qanday bajarish bo'yicha g'oyalar, tadqiqot uchun yangi mavzular va h.k."
   },
   "Join the community": {
-    "message": "Jamoa bilan qo'shiling"
+    "message": "Jamoaga qo'shiling"
   },
   "Markt 2.0": {
     "message": "Markt 2.0"
@@ -66,10 +57,10 @@
     "message": "E-tijorat loyihasi"
   },
   "UI Design": {
-    "message": "UI Dizayni"
+    "message": "UI / UX dizayn"
   },
   "Style Guide": {
-    "message": "Usul Qo'riqnomasi"
+    "message": "Spetsifikatsiya"
   },
   "About project": {
     "message": "Loyiha haqida"
@@ -84,7 +75,7 @@
     "message": "Telegramda yozing"
   },
   "Get started": {
-    "message": "Boshlang"
+    "message": "Online Proekt"
   },
   "Help": {
     "message": "Yordam"
@@ -107,9 +98,7 @@
   "You can start the project as a FrontEnd or BackEnd developer.": {
     "message": "Siz loyiha FrontEnd yoki BackEnd dasturchisi sifatida boshlashingiz mumkin."
   },
-  "Frontend": {
-    "message": "Frontend"
-  },
+
   "Backend (soon)": {
     "message": "Backend (tez orada)"
   },
@@ -416,13 +405,13 @@
     "message": "API settings"
   },
   "E - commerce project": {
-    "message": "E - commerce project"
+    "message": "E-commerce project"
   },
   "Mobile Web": {
-    "message": "Mobile Web"
+    "message": "Web va Mobile Web"
   },
   "Compinents": {
-    "message": "Compinents"
+    "message": "Komponentlar"
   },
   "If you have any questions, we are glad to answer them 👋": {
     "message": "Agar sizda savollar bo'lsa, ularni javoblashdan mamnun bo'lamiz 👋"
