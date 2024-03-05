@@ -31,7 +31,7 @@ export default function Footer({ isWhite }: Props) {
             </a>
           ))}
         </div>
-        <p className={styles.company}>©2024 Circle Academy</p>
+        <p className={styles.company}>Copyright © 2024 Dedicated.agency</p>
       </div>
     </footer>
   );
