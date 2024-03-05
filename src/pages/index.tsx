@@ -108,15 +108,7 @@ export default function Home(): JSX.Element {
                   </svg>
                 </p>
                 <p className={styles.design_text_description}>
-                  {/* <Translate>
-                    We have noticed junior developers lacks experience
-                    delivering real-world project, with lots of small tweaks,
-                    details and most importantly complete business logic. As
-                    they learn programming from beginner and technical
-                    perspective, digging deeper into a problem from business
-                    perspective is skipped, meaning features looks incomplete
-                    and barely tested
-                  </Translate> */}
+                  <Translate>problemDescription</Translate>
                 </p>
                 <div className={styles.design_text_buttons}>
                   <button className={styles.design_text_buttons_btn}>
@@ -139,6 +131,7 @@ export default function Home(): JSX.Element {
                     className={styles.design_image_top_img}
                     src={designFile1}
                     alt="design files image"
+                    loading="lazy"
                   />
                 </div>
                 <div className={styles.design_image_bottom}>
@@ -146,6 +139,7 @@ export default function Home(): JSX.Element {
                     className={styles.design_image_bottom_img}
                     src={designFile2}
                     alt="design files image"
+                    loading="lazy"
                   />
                 </div>
               </div>
@@ -158,6 +152,7 @@ export default function Home(): JSX.Element {
                   className={styles.challange_image_top_img}
                   src={challange2}
                   alt="challange files image"
+                  loading="lazy"
                 />
               </div>
               <div className={styles.challange_image_bottom}>
@@ -165,6 +160,7 @@ export default function Home(): JSX.Element {
                   className={styles.challange_image_bottom_img}
                   src={challange1}
                   alt="challange files image"
+                  loading="lazy"
                 />
               </div>
             </div>
@@ -311,7 +307,11 @@ export default function Home(): JSX.Element {
               </a>
             </div>
             <div className={styles.markt_back_image}>
-              <img src={marktBackImage} alt="design files image" />
+              <img
+                src={marktBackImage}
+                alt="design files image"
+                loading="lazy"
+              />
             </div>
           </section>
           <section className={styles.questions}>
@@ -326,7 +326,7 @@ export default function Home(): JSX.Element {
 
             <a
               target="_blank"
-              href="https://t.me/circleuz"
+              href="https://t.me/circleuz_chat"
               className={styles.questions_button}
             >
               <Translate>Type in telegram</Translate>
