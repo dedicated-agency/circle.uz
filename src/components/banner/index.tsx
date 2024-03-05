@@ -6,11 +6,13 @@ interface Props {
   mob_height?: number;
 }
 export default function Banner({ image, mob_height }: Props) {
+  const isSmallScreen = window.innerWidth <= 600;
+  alert(isSmallScreen);
   return (
     <picture>
       <img
         style={{
-          maxHeight: window.innerWidth < 425 ? mob_height : "100%",
+          maxHeight: isSmallScreen ? mob_height : "100%",
         }}
         className={styles.img}
         src={image}

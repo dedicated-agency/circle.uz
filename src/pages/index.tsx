@@ -108,7 +108,14 @@ export default function Home(): JSX.Element {
                   </svg>
                 </p>
                 <p className={styles.design_text_description}>
-                  <Translate>problemDescription</Translate>
+                  <Translate>problemDescription1</Translate>
+                  <a
+                    target="_blank"
+                    href="https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev"
+                  >
+                    dizayn
+                  </a>
+                  <Translate>problemDescription2</Translate>
                 </p>
                 <div className={styles.design_text_buttons}>
                   <button className={styles.design_text_buttons_btn}>

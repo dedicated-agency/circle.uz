@@ -17,8 +17,14 @@
   "Problem": {
     "message": "Muammo"
   },
-  "problemDescription": {
-    "message": "Loyiha qurib tajriba ortiring. Buning uchun saytda dizan fayl (<a target='_blank' href='https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev'>**put link for design**</a>) va proek uchun izoh tuzib chiqganmiz. O'rganish asnosida boshlovchi dasturchi o'zi uchun kop yangi mavzularni o'zlashtirishi, bilganlarini katta loyihada mustahkamlashi hamda biznes jihatlarini ham o'rganishini umid qilib qolamiz"
+  "problemDescription1": {
+    "message": "Loyiha qurib tajriba ortiring. Buning uchun saytda "
+  },
+  "problemDescriptionFigmaLink": {
+    "message": "dizayn"
+  },
+  "problemDescription2": {
+    "message": " fayl va proek uchun izoh tuzib chiqganmiz. O'rganish asnosida boshlovchi dasturchi o'zi uchun kop yangi mavzularni o'zlashtirishi, bilganlarini katta loyihada mustahkamlashi hamda biznes jihatlarini ham o'rganishini umid qilib qolamiz"
   },
   "Web": {
     "message": "Web"
@@ -75,7 +81,10 @@
     "message": "Reja"
   },
   "articleDescriptionTop": {
-    "message": "Figma dizan faylni ko'rib chiqing. Kerakli resurslar uchun linklar saytda to'plangan. Loyihani bajarishga vaqt ajratib to'liq bitirishni tavsiya etamiz. Chunki haqiqiy mashaqqat mayda qismlarini qilayotga chiqadi. Figma dizan faylni ko'rib ozingizga qulay tarzda ish ketma-ketligni tuzsangiz bo'ladi, yoki bizning mualliflarimiz tavsiyalarini <a target='_blank'>[o'qisangiz boladi]</a>"
+    "message": "Figma dizan faylni ko'rib chiqing. Kerakli resurslar uchun linklar saytda to'plangan. Loyihani bajarishga vaqt ajratib to'liq bitirishni tavsiya etamiz. Chunki haqiqiy mashaqqat mayda qismlarini qilayotga chiqadi. Figma dizan faylni ko'rib ozingizga qulay tarzda ish ketma-ketligni tuzsangiz bo'ladi, yoki bizning mualliflarimiz tavsiyalarini "
+  },
+  "articleDescriptionTopFigmaLink": {
+    "message": "o'qisangiz boladi"
   },
   "articleDescriptionBottom": {
     "message": "Proekt boshlashda o'zingiz yo'nalishingizga tegishli boilerplate bilan boshlaganingiz yaxshi. Unda aksar loyihalarda ishlatish mumkin bo'lgan sozlamalar va papka tuzilishi tayyor qilingan."
