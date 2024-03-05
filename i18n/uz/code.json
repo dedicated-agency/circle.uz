@@ -1,15 +1,15 @@
 {
   "breaking the vicious circle": {
-    "message": "shafqatsiz doirani buzish"
+    "message": "real loyihalarda amaliyot"
   },
   "get working experience by building real world applications": {
-    "message": "Real dunyo ilovalarini yaratish orqali ish tajribasiga ega bo'ling"
+    "message": "Dasturlash uchun kerak tajriba oling"
   },
   "Explore": {
-    "message": "O'rganing"
+    "message": "Boshlash"
   },
   "Join our community": {
-    "message": "Jamoa bilan qo'shiling"
+    "message": "Jamoaga qo'shiling"
   },
   "How does it work?": {
     "message": "Bu qanday ishlaydi?"
@@ -17,35 +17,26 @@
   "Problem": {
     "message": "Muammo"
   },
-  "We have noticed junior developers lacks experience delivering real-world project, with lots of small tweaks, details and most importantly complete business logic.": {
-    "message": "Biz kichik ishlab chiquvchilarda ko'plab kichik o'zgarishlar, tafsilotlar va eng muhimi, to'liq biznes mantig'iga ega bo'lgan haqiqiy loyihalarni taqdim etish tajribasiga ega emasligini payqadik."
-  },
-  "As they learn programming from beginner and technical perspective, digging deeper into a problem from business perspective is skipped, meaning features looks incomplete and barely tested": {
-    "message": "Ular dasturlashni boshlang'ich va texnik nuqtai nazardan o'rganar ekan, biznes nuqtai nazaridan muammoni chuqurroq o'rganish o'tkazib yuboriladi, ya'ni xususiyatlar to'liq emas va zo'rg'a sinovdan o'tgan ko'rinadi."
+  "problemDescription": {
+    "message": "Loyiha qurib tajriba ortiring. Buning uchun saytda dizan fayl (<a target='_blank' href='https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev'>**put link for design**</a>) va proek uchun izoh tuzib chiqganmiz. O'rganish asnosida boshlovchi dasturchi o'zi uchun kop yangi mavzularni o'zlashtirishi, bilganlarini katta loyihada mustahkamlashi hamda biznes jihatlarini ham o'rganishini umid qilib qolamiz"
   },
   "Web": {
     "message": "Web"
   },
-  "MobileWeb": {
-    "message": "Mobil Web"
+  "Frontend": {
+    "message": "Frontend"
   },
-  "Components": {
-    "message": "Komponentlar"
+  "Mobile": {
+    "message": "Mobile"
   },
-  "Dark theme": {
-    "message": "Qora mavzusi"
+  "Backend": {
+    "message": "Backend"
   },
   "Audience": {
-    "message": "Tomoshabinlar"
-  },
-  "How to get a job without experience How to get an experience without job": {
-    "message": "Qanday qilib tajribasiz ishga kirish mumkin <-> Ishsiz qanday qilib tajribaga ega bo'lish mumkin"
+    "message": "Kim uchun"
   },
   "It is designed for juniors who have base knowledge on their stack: programming language, standard framework usage experience, but do not have commercial experience yet.": {
-    "message": "U o'z stekidagi asosiy bilimlarga ega bo'lgan o'smirlar uchun mo'ljallangan: dasturlash tili, standart ramkadan foydalanish tajribasi, lekin hali tijorat tajribasiga ega emas."
-  },
-  "The projects in the platform are best suited for those who at least finished a course on the stack (If not checkout any free courses) and ready to gain extra skills needed at commercial level.": {
-    "message": "Platformadagi loyihalar hech bo'lmaganda stack bo'yicha kursni tugatganlar (agar bepul kurslarni tekshirmasangiz) va tijorat darajasida zarur bo'lgan qo'shimcha ko'nikmalarga ega bo'lishga tayyor bo'lganlar uchun eng mos keladi."
+    "message": "U o'z stekidagi boshlang'ich bilimlarga ega bo'lgan dasturchilar uchun mo'ljallangan: dasturlash tili,"
   },
   "Community": {
     "message": "Jamoa"
@@ -57,7 +48,7 @@
     "message": "Platforma mualliflari muammolarni qanday hal qilish bo'yicha o'z tajribalari, ma'lum funktsiyalarni qanday bajarish bo'yicha g'oyalar, tadqiqot uchun yangi mavzular va h.k."
   },
   "Join the community": {
-    "message": "Jamoa bilan qo'shiling"
+    "message": "Jamoaga qo'shiling"
   },
   "Markt 2.0": {
     "message": "Markt 2.0"
@@ -66,13 +57,28 @@
     "message": "E-tijorat loyihasi"
   },
   "UI Design": {
-    "message": "UI Dizayni"
+    "message": "UI / UX dizayn"
   },
   "Style Guide": {
-    "message": "Usul Qo'riqnomasi"
+    "message": "Spetsifikatsiya"
   },
   "About project": {
     "message": "Loyiha haqida"
+  },
+  "aboutText": {
+    "message": "Markt 2.0 - bu texnika mahsulotlari, elektron qurilmalar sotadigan tijorat web sayti. Unda asosiy va ommalashgan xarid qilish funksiyalari mavjud. Dinamik asosiy sahifasi, mahsulotlar katalogi, bir necha darajalik turkumlar va unda qidiruv va filter tizimi. Savat -> To'lov -> Profil sahifalari ketmaketligi va boshqalar."
+  },
+  "aboutText2": {
+    "message": "To'lov qismi uchun o'zimiz test uchun sistema tayyorlaganmiz, real pul va karta ishlatilmaydi"
+  },
+  "plan": {
+    "message": "Reja"
+  },
+  "articleDescriptionTop": {
+    "message": "Figma dizan faylni ko'rib chiqing. Kerakli resurslar uchun linklar saytda to'plangan. Loyihani bajarishga vaqt ajratib to'liq bitirishni tavsiya etamiz. Chunki haqiqiy mashaqqat mayda qismlarini qilayotga chiqadi. Figma dizan faylni ko'rib ozingizga qulay tarzda ish ketma-ketligni tuzsangiz bo'ladi, yoki bizning mualliflarimiz tavsiyalarini <a target='_blank'>[o'qisangiz boladi]</a>"
+  },
+  "articleDescriptionBottom": {
+    "message": "Proekt boshlashda o'zingiz yo'nalishingizga tegishli boilerplate bilan boshlaganingiz yaxshi. Unda aksar loyihalarda ishlatish mumkin bo'lgan sozlamalar va papka tuzilishi tayyor qilingan."
   },
   "Have any questions?": {
     "message": "Savollar bormi?"
@@ -84,13 +90,13 @@
     "message": "Telegramda yozing"
   },
   "Get started": {
-    "message": "Boshlang"
+    "message": "Online Proekt"
   },
   "Help": {
     "message": "Yordam"
   },
   "About": {
-    "message": "Haqida"
+    "message": "Loyiha haqida"
   },
   "Contacts": {
     "message": "Aloqa"
@@ -101,20 +107,87 @@
   "We provide the opportunity to significantly": {
     "message": "Biz aniq imkoniyatni taqdim qilamiz"
   },
+  "projectTitle": {
+    "message": "Loyihadan foydalar"
+  },
+  "projectDescription": {
+    "message": "Dasturchi yo'nalishiga kora, kim qanday mavzularni o'zlashtirishi"
+  },
   "Start project": {
     "message": "Loyiha boshlash"
   },
-  "You can start the project as a FrontEnd or BackEnd developer.": {
+
+  "You can start project as a FrontEnd or BackEnd developer.": {
     "message": "Siz loyiha FrontEnd yoki BackEnd dasturchisi sifatida boshlashingiz mumkin."
   },
-  "Frontend": {
-    "message": "Frontend"
-  },
   "Backend (soon)": {
-    "message": "Backend (tez orada)"
+    "message": "Backend (yaqinda)"
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
     "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
+  },
+  "frontend_title": {
+    "message": "Dasturchi quyidagilarni loyiha asnosida o'zlashtiradi"
+  },
+  "frontend_one": {
+    "message": "1. UI framework (react, vue, angular)"
+  },
+  "frontend_one1": {
+    "message": "state va props"
+  },
+  "frontend_one2": {
+    "message": "lifecycle-events"
+  },
+  "frontend_one3": {
+    "message": "hooks"
+  },
+  "frontend_one4": {
+    "message": "component decomposition"
+  },
+  "frontend_two": {
+    "message": "2. store"
+  },
+  "frontend_two1": {
+    "message": "saving user details, cart"
+  },
+  "frontend_two2": {
+    "message": "localeStorage, sessionStorage"
+  },
+  "frontend_three": {
+    "message": "3. ssr + routing"
+  },
+  "frontend_three1": {
+    "message": "SEO"
+  },
+  "frontend_three2": {
+    "message": "protected routes"
+  },
+  "frontend_four": {
+    "message": "4. API requests"
+  },
+  "frontend_four1": {
+    "message": "CRUD"
+  },
+  "frontend_four2": {
+    "message": "auth (JWT token)"
+  },
+  "frontend_four3": {
+    "message": "interceptor"
+  },
+  "frontend_four4": {
+    "message": "pagination"
+  },
+  "frontend_five": {
+    "message": "5. general:"
+  },
+  "frontend_five1": {
+    "message": "data structures"
+  },
+  "frontend_five2": {
+    "message": "multi lang: i18n"
+  },
+  "frontend_five3": {
+    "message": "deployment & production configuration"
   },
   "theme.ErrorPageContent.title": {
     "message": "Ushbu sahifa xatolandi.",
@@ -416,21 +489,18 @@
     "message": "API settings"
   },
   "E - commerce project": {
-    "message": "E - commerce project"
+    "message": "E-commerce project"
   },
   "Mobile Web": {
-    "message": "Mobile Web"
+    "message": "Web va Mobile Web"
   },
   "Compinents": {
-    "message": "Compinents"
+    "message": "Komponentlar"
   },
   "If you have any questions, we are glad to answer them 👋": {
     "message": "Agar sizda savollar bo'lsa, ularni javoblashdan mamnun bo'lamiz 👋"
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file.": {
     "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
-  },
-  "You can start project as a FrontEnd or BackEnd developer.": {
-    "message": "You can start project as a FrontEnd or BackEnd developer."
   }
 }

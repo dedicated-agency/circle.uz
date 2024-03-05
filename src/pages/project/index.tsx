@@ -32,83 +32,41 @@ export default function Project() {
       <main className={styles.main}>
         <div className={styles.container}>
           <section className={styles.about}>
-            <Banner mob_height={200} image={banner1} />
-            <section className={styles.articles}>
+            <img
+              className={styles.about_image}
+              src={banner1}
+              alt="challange files image"
+              loading="lazy"
+            />
+            <div className={styles.articles}>
               <div className={styles.article}>
                 <div className={styles.articleContainer}>
                   <h3 className={styles.artcleTitle}>
                     <Translate>About</Translate>
                   </h3>
                   <p className={styles.artcleDescription}>
-                    <Translate>
-                      We provide the opportunity to significantly improve your
-                      coding skills with our open source file. We provide the
-                      opportunity to significantly improve your coding skills
-                      with our open source file.
-                    </Translate>
-                    <Translate>
-                      We provide the opportunity to significantly improve your
-                      coding skills with our open source file. We provide the
-                      opportunity to significantly improve your coding skills
-                      with our open source file.
-                    </Translate>
+                    <Translate>aboutText</Translate>
                   </p>
-                </div>
-
-                <Banner mob_height={180} image={banner2} />
-              </div>
-              <div className={styles.article}>
-                <div className={styles.articleContainer}>
-                  <h3 className={styles.artcleTitle}>Tech spec</h3>
                   <p className={styles.artcleDescription}>
-                    <Translate>
-                      We provide the opportunity to significantly improve your
-                      coding skills with our open source file. We provide the
-                      opportunity to significantly improve your coding skills
-                      with our open source file.
-                    </Translate>
-                    <Translate>
-                      We provide the opportunity to significantly improve your
-                      coding skills with our open source file. We provide the
-                      opportunity to significantly improve your coding skills
-                      with our open source file.
-                    </Translate>
+                    <Translate>aboutText2</Translate>
                   </p>
                 </div>
-                <div className={styles.articleBanners}>
-                  <div>
-                    <Banner mob_height={93} image={banner3} />
-                  </div>
-                  <div>
-                    <Banner mob_height={93} image={banner3} />
-                  </div>
-                </div>
-                <p className={styles.artcleDescription}>
-                  <Translate>
-                    We provide the opportunity to significantly improve your
-                    coding skills with our open source file. We provide the
-                    opportunity to significantly improve your coding skills with
-                    our open source file.
-                  </Translate>
-                  <Translate>
-                    We provide the opportunity to significantly improve your
-                    coding skills with our open source file. We provide the
-                    opportunity to significantly improve your coding skills with
-                    our open source file.
-                  </Translate>
-                </p>
+                <img
+                  className={styles.about_image}
+                  src={banner2}
+                  alt="challange files image"
+                  loading="lazy"
+                />
               </div>
-            </section>
+            </div>
           </section>
           <section className={styles.startProject}>
             <div className={styles.startProjectHeader}>
               <h2>
-                <Translate>Start project</Translate>
+                <Translate>projectTitle</Translate>
               </h2>
               <p>
-                <Translate>
-                  You can start project as a FrontEnd or BackEnd developer.
-                </Translate>
+                <Translate>projectDescription</Translate>
               </p>
             </div>
 
@@ -140,24 +98,73 @@ export default function Project() {
                       <circle cx="6" cy="6" r="6" fill="#D8E2DC" />
                     </svg>
                     <p className={styles.inActiveProjectTitle}>
-                      <Translate> Backend (soon)</Translate>
+                      <Translate>Backend (soon)</Translate>
                     </p>
                   </div>
                 </div>
                 <div className={styles.projectsLeftContainer}>
                   <h5 className={styles.projectsLeftContainerTitle}>
-                    <Translate>Frontend</Translate>
+                    <Translate>frontend_title</Translate>
                   </h5>
                   <p className={styles.projectsLeftContainerText}>
-                    <Translate>
-                      We provide the opportunity to significantly improve your
-                      coding skills with our open source file. We provide the
-                      opportunity to significantly improve your coding skills
-                      with our open source file. We provide the opportunity to
-                      significantly improve your coding skills with our open
-                      source file. We provide the opportunity to significantly
-                      improve your coding skills with our open source file
-                    </Translate>
+                    <Translate>frontend_one</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_one1</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_one2</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_one3</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_one4</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerText}>
+                    <Translate>frontend_two</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_two1</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_two2</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerText}>
+                    <Translate>frontend_three</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_three1</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_three2</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerText}>
+                    <Translate>frontend_four</Translate>
+                    <p className={styles.projectsLeftContainerTextItem}>
+                      <Translate>frontend_four1</Translate>
+                    </p>
+                    <p className={styles.projectsLeftContainerTextItem}>
+                      <Translate>frontend_four2</Translate>
+                    </p>
+                    <p className={styles.projectsLeftContainerTextItem}>
+                      <Translate>frontend_four3</Translate>
+                    </p>
+                    <p className={styles.projectsLeftContainerTextItem}>
+                      <Translate>frontend_four4</Translate>
+                    </p>
+                  </p>
+                  <p className={styles.projectsLeftContainerText}>
+                    <Translate>frontend_five</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_five1</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_five2</Translate>
+                  </p>
+                  <p className={styles.projectsLeftContainerTextItem}>
+                    <Translate>frontend_five3</Translate>
                   </p>
                 </div>
                 <button
@@ -168,8 +175,41 @@ export default function Project() {
                 </button>
               </div>
               <div className={styles.projectsRight}>
-                <img src={startProject} />
+                <img src={startProject} loading="lazy" />
               </div>
+            </div>
+          </section>
+          <section className={styles.article_wrapper}>
+            <div className={styles.article}>
+              <div className={styles.articleContainer}>
+                <h3 className={styles.artcleTitle}>
+                  <Translate>plan</Translate>
+                </h3>
+                <p className={styles.artcleDescription}>
+                  <Translate>articleDescriptionTop</Translate>
+                </p>
+              </div>
+              <div className={styles.articleBanners}>
+                <div className={styles.articleBanners_image_left}>
+                  <img
+                    className={styles.articleBanners_image_left_img}
+                    src={banner3}
+                    alt="challange files image"
+                    loading="lazy"
+                  />
+                </div>
+                <div className={styles.articleBanners_image_right}>
+                  <img
+                    className={styles.articleBanners_image_right_img}
+                    src={banner3}
+                    alt="challange files image"
+                    loading="lazy"
+                  />
+                </div>
+              </div>
+              <p className={styles.artcleDescription}>
+                <Translate>articleDescriptionBottom</Translate>
+              </p>
             </div>
           </section>
           <section className={styles.contacts}>
@@ -185,7 +225,7 @@ export default function Project() {
             </div>
             <a
               target="_blank"
-              href="https://t.me/circleuz"
+              href="https://t.me/circleuz_chat"
               className={styles.contactsBtn}
             >
               <p>
