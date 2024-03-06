@@ -167,7 +167,7 @@ export default function Project() {
                 </h3>
                 <p className={styles.artcleDescription}>
                   <Translate>articleDescriptionTop</Translate>
-                  <a target="_blank" href="/docs/intro.md">
+                  <a target="_blank" href="https://circle.uz/docs/intro/">
                     <Translate>articleDescriptionTopFigmaLink</Translate>
                   </a>
                 </p>
