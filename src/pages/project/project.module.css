@@ -298,12 +298,11 @@
 }
 .contactsBtn p {
   color: #fff;
-
   font-size: 18px;
   font-style: normal;
   font-weight: 500;
   line-height: 140%; /* 25.2px */
-  letter-spacing: -1px;
+  letter-spacing: 0;
 }
 @media (max-width: 1280px) {
   .title {
