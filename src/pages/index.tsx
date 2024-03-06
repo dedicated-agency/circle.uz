@@ -119,7 +119,7 @@ export default function Home(): JSX.Element {
                   <Translate>problemDescription1</Translate>
                   <a
                     target="_blank"
-                    href="https://www.figma.com/file/ULtstqcr6FJ2jzejdHMOVi/Markt-2.0?type=design&node-id=1%3A4&mode=design&t=6marMaYxLhc05tIL-1"
+                    href="https://www.figma.com/file/ULtstqcr6FJ2jzejdHMOVi/Markt-2.0?type=design&node-id=1-4&mode=design"
                   >
                     dizayn
                   </a>
