@@ -90,7 +90,7 @@ export default function Home(): JSX.Element {
               <div className={styles.design_text}>
                 <p className={styles.design_text_title}>
                   <Translate>Problem</Translate>
-                  {/* <svg
+                  <svg
                     width="32"
                     height="32"
                     viewBox="0 0 32 32"
@@ -99,19 +99,27 @@ export default function Home(): JSX.Element {
                     className={styles.design_text_title_svg}
                   >
                     <path
-                      d="M27.6667 14.6261L16.9504 24.7329C15.6376 25.9711 13.857 26.6667 12.0004 26.6667C10.1438 26.6667 8.36319 25.9711 7.05036 24.7329C5.73754 23.4948 5 21.8155 5 20.0644C5 18.3134 5.73754 16.6341 7.05036 15.396L17.7666 5.28917C18.6419 4.46373 19.8289 4 21.0666 4C22.3044 4 23.4914 4.46373 24.3667 5.28917C25.2419 6.1146 25.7336 7.23414 25.7336 8.40149C25.7336 9.56883 25.2419 10.6884 24.3667 11.5138L13.6387 21.6206C13.2011 22.0333 12.6076 22.2652 11.9887 22.2652C11.3698 22.2652 10.7763 22.0333 10.3387 21.6206C9.9011 21.2079 9.65525 20.6481 9.65525 20.0644C9.65525 19.4808 9.9011 18.921 10.3387 18.5083L20.2387 9.18231"
+                      d="M12 28H20"
                       stroke="#6C757D"
                       strokeWidth="2"
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
-                  </svg> */}
+                    <path
+                      d="M16 4C11.5817 4 8 7.58172 8 12C8 13.8564 8.63234 15.5652 9.69338 16.9226C10.8658 18.4226 12 20.1021 12 22.006V22.6669C12 23.4033 12.597 24.0003 13.3333 24.0003H18.6667C19.403 24.0003 20 23.4033 20 22.6669V22.006C20 20.1021 21.1342 18.4226 22.3066 16.9226C23.3677 15.5652 24 13.8564 24 12C24 7.58172 20.4183 4 16 4Z"
+                      fill="#6C757D"
+                      stroke="#6C757D"
+                      strokeWidth="1.5"
+                      strokeLinecap="round"
+                      strokeLinejoin="round"
+                    />
+                  </svg>
                 </p>
                 <p className={styles.design_text_description}>
                   <Translate>problemDescription1</Translate>
                   <a
                     target="_blank"
-                    href="https://www.figma.com/file/mUsKyNiJdJJjhZYqBiyiny/Platform?mode=dev"
+                    href="https://www.figma.com/file/ULtstqcr6FJ2jzejdHMOVi/Markt-2.0?type=design&node-id=1%3A4&mode=design&t=6marMaYxLhc05tIL-1"
                   >
                     dizayn
                   </a>

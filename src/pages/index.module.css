@@ -384,8 +384,8 @@
   display: flex;
   align-items: center;
   border: none;
-  display: inline-block;
   text-decoration: none;
+  max-width: 200px;
 }
 .markt_text_button:hover {
   color: var(--white, #fff);
@@ -433,7 +433,7 @@
   font-size: 18px;
   font-weight: 500;
   line-height: 140%; /* 25.2px */
-  letter-spacing: -1px;
+  letter-spacing: 0px;
   margin-top: 32px;
 }
 .questions_button:hover {
