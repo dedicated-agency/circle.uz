@@ -90,7 +90,7 @@ export default function Home(): JSX.Element {
               <div className={styles.design_text}>
                 <p className={styles.design_text_title}>
                   <Translate>Problem</Translate>
-                  <svg
+                  {/* <svg
                     width="32"
                     height="32"
                     viewBox="0 0 32 32"
@@ -105,7 +105,7 @@ export default function Home(): JSX.Element {
                       strokeLinecap="round"
                       strokeLinejoin="round"
                     />
-                  </svg>
+                  </svg> */}
                 </p>
                 <p className={styles.design_text_description}>
                   <Translate>problemDescription1</Translate>
