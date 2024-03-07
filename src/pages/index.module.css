@@ -438,7 +438,6 @@
 }
 .questions_button:hover {
   color: var(--white, #fff);
-  letter-spacing: -1px;
   opacity: 0.9;
   text-decoration: none;
 }
