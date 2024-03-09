@@ -16,7 +16,7 @@ ahamiyat bersangiz bizning productlar oladigan apiyimizda `page`, `categories`, 
 
 bu page uchun yoki `global state manager` ishlatasiz yoki  `state` ni componentlarni eng tepasida ushlaysiz. bu page da productlar ro’yxatidan boshqa narsa ko'p emas shuning uchun qaysi yol performanc uchun yaxshi o'ylab otirmasakham boladi, ozingizga qulayini tanlang. har query parametr ozgarishida, oz pagegingizni `url`ni o'zgartitishni unutmang, bu orqali siz boshqa stranitsadan qaytganda shu url qurylarni olib eski pageni eski holatini qaytarib olasiz va sgu ssilkani share qilsangiz boshqa odamlardaham sizdaka filtrlar turgan boladi
 
-categoriyalardan kegin o'xshash productlar seksiyasi ko'rsangiz bo'ladi.
+category productlardan kegin o'xshash productlar seksiyasi ko'rsangiz bo'ladi.
 
 ![Figma preview](./img/similar_section_demo.png)
 
