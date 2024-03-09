@@ -5,14 +5,16 @@ sidebar_position: 3
 
 headerdagi logikani keginroqqa olib qoysak ham boladi
 
-keying navbatda category page routinga /category:id pageni qoshamiz 
-:id paramtr bizga routingdan categoriya id sini olib backendan shu categoriyani sorashga kerak boladi.
+keying navbatda category page. routinga /category/{id} pageni qoshamiz. `id` bizga productalrni categoriyaga qarab filtr qilishga kerak bo'ladi.
 
 kegin dizaynini boshlaymiz
-biricnchi yaratib olgan layoutimiz bilan pageni oraymiz. kegin cardlar listini qurib olamiz. backenddan categoriyani productlarini olish uchun postmanga qaraymiz. 
+birinchi yaratib olgan layoutimiz bilan pageni oraymiz. kegin cardlar listini qurib olamiz va backenddan productlarini olish uchun postmanga qaraymiz. 
 
+![Figma preview](./img/category_list_demo.png)
 
-ahamiyat bersangiz bu yerda pagination, filtrlar va sorting ishlatilgan. shuning uchun api ulashni boshlagandaham postmandan bu request uchun qery parametrlar bormi va ularni qanday qoyishni qarab qoyamiz. bu page uchun yoki global state ishlatasiz yoki qerylarni statini componentlarni eng tepasida ushlaysiz. bu page da shu categoriyalar ro’yxatidan boshqa narsa kop emas shuning uchun qaysi yol performanc uchun yaxshi oylab otirmasakham boladi, ozingizga qulayini tanlang. har query parametr ozgarishida, oz pagegingizni urlni ozgartitishni unutmang, bu orqali siz boshqa stranitsadan qaytganda shu url qurylarni olib eski pageni eski holatini qaytarib olasiz va sgu ssilkani share qilsangiz boshqa odamlardaham sizdaka filtrlar turgan boladi
+ahamiyat bersangiz bizning productlar oladigan apiyimizda `page`, `categories`, `tags`, `brands` degan paramterlar bor. bu parametrlar orqali biz o'layotgan productlarimizni categoriya, brand va teglarga filtrlab olishimiz mumkin. `page` parametr esa biz olayotgan ma'lumotlarimizni bo'laklarga ajratib kerakli qisimni faqat zaruriyat payti olishga yordam beradi.
+
+bu page uchun yoki `global state manager` ishlatasiz yoki  `state` ni componentlarni eng tepasida ushlaysiz. bu page da productlar ro’yxatidan boshqa narsa ko'p emas shuning uchun qaysi yol performanc uchun yaxshi o'ylab otirmasakham boladi, ozingizga qulayini tanlang. har query parametr ozgarishida, oz pagegingizni `url`ni o'zgartitishni unutmang, bu orqali siz boshqa stranitsadan qaytganda shu url qurylarni olib eski pageni eski holatini qaytarib olasiz va sgu ssilkani share qilsangiz boshqa odamlardaham sizdaka filtrlar turgan boladi
 
 categoriyalardan kegin o'xshash productlar seksiyasi ko'rsangiz bo'ladi.
 
