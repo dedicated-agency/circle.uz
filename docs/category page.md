@@ -5,7 +5,7 @@ sidebar_position: 3
 
 headerdagi logikani keginroqqa olib qoysak ham boladi
 
-keying navbatda category page. routinga /category/{id} pageni qoshamiz. `id` bizga productalrni categoriyaga qarab filtr qilishga kerak bo'ladi.
+keying navbatda category page. routinga `/category/{id}` pageni qoshamiz. `id` bizga productalrni categoriyaga qarab filtr qilishga kerak bo'ladi.
 
 kegin dizaynini boshlaymiz
 birinchi yaratib olgan layoutimiz bilan pageni oraymiz. kegin cardlar listini qurib olamiz va backenddan productlarini olish uchun postmanga qaraymiz. 
