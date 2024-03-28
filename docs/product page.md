@@ -19,5 +19,18 @@ har bir attribut uchun ko'rishlarni yaratib olganingizdan kegin birinchi `defaul
 
 ![Figma preview](./img/product_stock_demo.png)
 
-bu qisimni qilish uchun sizga product obyektidagi `stocks` degan `array` kerak bo'ladi. Bu `array` o'z ichida bizni do'kondagi bor barcha configuratsiyalarni narxi va sonini saqlaydi. Misol uchun siz qora va `256 gb ram` lik macbook olmoqchisiz, lekin faqat `512 gb ram` lik configuratsiya qolgan bo'kishi mumkin. Saytdan foydalanayotgan odam notog'ri informatsiya olmasligi kerak shuning ichun unga bizda yo'q configuratsiyalarni tanlay olish imkoniyatini cheklashimiz kerak.
+bu qisimni qilish uchun sizga product obyektidagi `stocks` degan `array` kerak bo'ladi. Bu `array` o'z ichida bizni do'kondagi bor barcha configuratsiyalarni narxi va sonini saqlaydi. Misol uchun siz qora va `256gb ram` lik macbook olmoqchisiz, lekin faqat `512gb ram` lik configuratsiya qolgan bo'kishi mumkin. Saytdan foydalanayotgan odam notog'ri informatsiya olmasligi kerak shuning ichun unga bizda yo'q configuratsiyalarni tanlay olish imkoniyatini cheklashimiz kerak.
+
+sizda to'gri funksional qirish uchun 4 ta vazifa bo'ladi.
+1 stocklar va atrributlarni olganingizda stocklar orasidan eng minimal va magazinda bor konfiguratsiyalarni tapasiz va o'zingizga saqlab qo'yasiz.
+2 saqlab qo'ygan konfiguratsiyangizni narxi va sonini ko'rsatasiz
+3 konfiguratsiyani bir nechta sonini tanlay olish uchun funksiyalar yaratasiz ( son tanlayabganda, soningiz `quantity`, ya'ni do'kondagi shu taovarning sonidan oshmasligi va 0 dan pas bo'lmasligi uchun shart bo'lishi kerak )
+4 user atrributni bosganida ya'na bir bor stockdan shu yangi terillgan attributlar uchun configuratsiyani olasiz (agar topa olmasangiz `Add to card`, `Buy now`, son qo'shish knopkalarini bosilmaydigan qilib qo'yasiz va sonni 0 qilib qo'yasiz )
+
+shu 4 shartni bajarsangiz sizning configuratsiya funksionalingiz ishlashni boshlaydi.
+unin mukammal bo'lishi uchun ya'na bir (extra) shart bor.
+
+![Figma preview](./img/atrribute_disabled_demo.png)
+
+ko'rsishingiz mumkinki tepadagi rasimda bizda oq rang uchun faqatginz `128gb ssd` va `8gb memory` tanlashimiz mumkin. boshqa ssd va memory uchun knopkalar berk holda va ularni tanlab bo'lmaydi. Siz 4 qadamda shu ishning yengil ko'rinishini qildigiz bu ko'rinish uchun siz har bir `attribute` knopkasi uchun stockda tog'ri keladigan congiguratsiya borligini tekshirishingiz kerak. bo'lmagan holatda berkitasiz
 
