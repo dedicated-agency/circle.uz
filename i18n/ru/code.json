@@ -38,6 +38,12 @@
   "Audience": {
     "message": "Audience"
   },
+  "AudienceDesc2": {
+    "message": ""
+  },
+  "AudienceDesc3": {
+    "message": ""
+  },
 
   "How to get a job without experience How to get an experience without job": {
     "message": "How to get a job without experience <-> How to get an experience without job"
@@ -116,6 +122,9 @@
   },
   "Backend (soon)": {
     "message": "Backend (soon)"
+  },
+  "Mobile (soon)": {
+    "message": "Mobile (soon)"
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
     "message": "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file"

@@ -42,7 +42,13 @@
     "message": "Kim uchun"
   },
   "It is designed for juniors who have base knowledge on their stack: programming language, standard framework usage experience, but do not have commercial experience yet.": {
-    "message": "U o'z stekidagi boshlang'ich bilimlarga ega bo'lgan dasturchilar uchun mo'ljallangan: dasturlash tili,"
+    "message": "U o'z stekidagi boshlang'ich bilimlarga ega bo'lgan dasturchilar uchun mo'ljallangan. Yoki, frontend boyicha bilimga ega inson, backend, yoki mobile organmoqchi bo'lsa"
+  },
+  "AudienceDesc2": {
+    "message": "Endi boshlayotganlar, ozlari sohasiga tegishlik videokurs korib, so'ng boshlashsa maqsadga muvofiq bolar edi."
+  },
+  "AudienceDesc3": {
+    "message": "Ikkila guruh foydalanuvchilar dasturlash tili, fremyvork va boshqa kutubxonalarni loyiha qilish asnosida yaxshi ozlashtirib olishadi."
   },
   "Community": {
     "message": "Jamoa"
@@ -131,6 +137,9 @@
   },
   "Backend (soon)": {
     "message": "Backend (yaqinda)"
+  },
+  "Mobile (soon)": {
+    "message": "Mobile (yaqinda)"
   },
   "We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file. We provide the opportunity to significantly improve your coding skills with our open source file": {
     "message": "Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz. Biz ochiq manba faylimiz bilan dasturlash ko'nikmangizni ancha oshirish imkoniyatini taqdim qilamiz"
