@@ -207,6 +207,11 @@ export default function Home(): JSX.Element {
                   stack: programming language, standard framework usage
                   experience, but do not have commercial experience yet.
                 </Translate>
+                <br />
+                <br />
+                <Translate>AudienceDesc2</Translate>
+                <br />
+                <Translate>AudienceDesc3</Translate>
               </p>
 
               {/* <div className={styles.challange_text_buttons}>
