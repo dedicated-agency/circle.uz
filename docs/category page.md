@@ -14,7 +14,19 @@ birinchi yaratib olgan layoutimiz bilan pageni oraymiz. kegin cardlar listini qu
 
 ahamiyat bersangiz bizning productlar oladigan apiyimizda `page`, `categories`, `tags`, `brands` degan paramterlar bor. bu parametrlar orqali biz o'layotgan productlarimizni categoriya, brand va teglarga filtrlab olishimiz mumkin. `page` parametr esa biz olayotgan ma'lumotlarimizni bo'laklarga ajratib kerakli qisimni faqat zaruriyat payti olishga yordam beradi.
 
-bu page uchun yoki `global state manager` ishlatasiz yoki  `state` ni componentlarni eng tepasida ushlaysiz. bu page da productlar ro’yxatidan boshqa narsa ko'p emas shuning uchun qaysi yol performanc uchun yaxshi o'ylab otirmasakham boladi, ozingizga qulayini tanlang. har query parametr ozgarishida, oz pagegingizni `url`ni o'zgartitishni unutmang, bu orqali siz boshqa stranitsadan qaytganda shu url querylarni olib eski pageni eski holatini qaytarib olasiz va shu ssilkani share qilsangiz boshqa odamlardaham sizdaka filtrlar turgan boladi
+bu page uchun `global state manager` ishlatganingiz yaxshi. Chunki siz filtrlaringiz holatini bir necha joyda ko'rsatasiz va ushlashingiz kerak bo'ladi.
+
+1
+![Figma preview](./img/filters_demo.png)
+
+2
+![Figma preview](./img/filters_footer_demo.png)
+
+3
+![Figma preview](./img/sorting_demo.png)
+
+
+hamma filtralr logikasini qilib bo'lsangiz `query parametr` larni sozlashingiz kerak bo'ladi. har query parametr ozgarishida, oz pagegingizni `url` ni o'zgartitishni unutmang, bu orqali siz boshqa stranitsadan qaytganda shu url querylarni olib eski pageni eski holatini qaytarib olasiz va shu ssilkani share qilsangiz boshqa odamlardaham sizdaka filtrlar turgan boladi
 
 category productlardan kegin o'xshash productlar seksiyasi ko'rsangiz bo'ladi.
 
