@@ -34,3 +34,4 @@ unin mukammal bo'lishi uchun ya'na bir (extra) shart bor.
 
 ko'rsishingiz mumkinki tepadagi rasimda bizda oq rang uchun faqatginz `128gb ssd` va `8gb memory` tanlashimiz mumkin. boshqa ssd va memory uchun knopkalar berk holda va ularni tanlab bo'lmaydi. Siz 4 qadamda shu ishning yengil ko'rinishini qildigiz bu ko'rinish uchun siz har bir `attribute` knopkasi uchun stockda tog'ri keladigan congiguratsiya borligini tekshirishingiz kerak. bo'lmagan holatda berkitasiz
 
+`user` congiratsiyani tanlashi uchun barch qadamlarni to'girlab olganimzdan so'ng productni cartga qo'shish uchun apini qilishimiz kerak. bu apini ishlata olishimiz uchun biz avtorizatsiyadan o'tib `user token` ni o'zmizga saqlab olgan bo'lishimiz kerak. Shuning uchun bu qadamni qoldirib turib avtorizatsiya qilishni bitirib olamiz, kegin davom etamiz.
