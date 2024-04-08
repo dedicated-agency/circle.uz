@@ -36,11 +36,11 @@ elektron product larni `color`, `memory` dan tashqari boshqa o'zgarib turuvchi v
 
 
 product price va quantity uchun `stock` table dan foydalanamiz. `stock.attributes` json object saqlaydi.
-`[
-    {"attribute_id":4,"value_id":19},
+```[
+  {"attribute_id":4,"value_id":19},
 	{"attribute_id":4,"value_id":16},
 	{"attribute_id":3,"value_id":105}
-]`
+]```
 shu attribute larga ega bo'lgan product ni narxi va omborda mavjud soni. `one to many` saqlanadi
 
 ![Figma preview](./img/database/stock.png)

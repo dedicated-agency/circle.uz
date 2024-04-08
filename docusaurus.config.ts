@@ -44,23 +44,36 @@ const config: Config = {
     [
       "classic",
       {
-        docs: {
-          sidebarPath: "./sidebars.ts",
-          // Please change this to your repo.
-          // Remove this to remove the "edit this page" links.
-          editUrl: "https://github.com/dedicated-agency/circle.uz/tree/main",
-        },
-        // blog: {
-        //   showReadingTime: true,
-        //   // Please change this to your repo.
-        //   // Remove this to remove the "edit this page" links.
-        //   editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
-        // },
+        docs: false,
+        blog: false,
         
         theme: {
           customCss: "./src/css/custom.css",
         },
       } satisfies Preset.Options,
+    ],
+  ],
+
+  plugins: [
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        // id: 'product', // omitted => default instance
+        path: 'frontend',
+        routeBasePath: 'frontend',
+        sidebarPath: "./sidebars.ts",
+        editUrl: "https://github.com/dedicated-agency/circle.uz/tree/main",
+      },
+    ],
+    [
+      '@docusaurus/plugin-content-docs',
+      {
+        id: 'backend',
+        path: 'backend',
+        routeBasePath: 'backend',
+        sidebarPath:  "./sidebars.ts",
+        editUrl: "https://github.com/dedicated-agency/circle.uz/tree/main",
+      },
     ],
   ],
 
@@ -75,17 +88,17 @@ const config: Config = {
       },
       items: [
         {
-          type: "docSidebar",
-          sidebarId: "tutorialSidebar",
+          to: "/frontend/intro",
           position: "left",
-          label: "Tutorials",
+          label: "Frontend",
         },
-        // { to: "/blog", label: "Blog", position: "left" },
-        // {
-        //   href: "https://github.com/facebook/docusaurus",
-        //   label: "GitHub",
-        //   position: "right",
-        // },
+        {
+          to: "/backend/intro",
+          position: "left",
+          label: "Backend",
+          
+        },
+      
       ],
     },
     footer: {
@@ -95,8 +108,12 @@ const config: Config = {
           title: "Docs",
           items: [
             {
-              label: "Tutorials",
-              to: "/docs/intro",
+              label: "Frontend",
+              to: "/frontend/intro",
+            },
+            {
+              label: "Backend",
+              to: "/backend/intro",
             },
           ],
         },

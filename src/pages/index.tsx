@@ -35,7 +35,7 @@ export default function Home(): JSX.Element {
               </Translate>
             </p>
             <div className={styles.text_buttons}>
-              <a href="/docs/intro" className={styles.text_buttons_explore}>
+              <a href="/frontent/intro" className={styles.text_buttons_explore}>
                 <Translate>Explore</Translate>
                 <svg
                   width="20"

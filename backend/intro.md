@@ -33,12 +33,12 @@ githubda repositroy sizga o‘z codingizdagi o‘zgarishlar tarixini ko‘rishga
 
 githubda proyektingiz uchun yangi repository ochish uchun o‘z akkauntingiz bilan kirganingizda chap sidebarda yashil "New" deb yozilgan tugma bo‘ladi
 
-![Figma preview](./img/github_demo.png)
+![Figma preview](./img/database/github_demo.png)
 
 shu tugmani bosib o‘z repositoriyingizni yaratishni boshlaysiz.
 "Create repositroy" tugmasini bosishdan oldin repositoriyni public qilib belgilashni unutmang.
 
-![Figma preview](./img/github_demo2.png)
+![Figma preview](./img/database/github_demo2.png)
 
 aks holda proyektingiz boshqa odamlar uchun berk bo‘ladi ba faqatgina siz ruxsat bergan odamlar proyektni ko‘ra oladi. Kelajakda xususiy proyektlaringiz yoki ish joyingiz uchun proyektlarda repositoryni private qilish yaxshi xavfsizlikni yo‘li hisoblanadi.
 
@@ -67,7 +67,7 @@ batafsil qilib aytganda.
 
 kod yozishni boshlashdan oldin birinchi navbatda figma dizayni ochib butun proyekt qanday tuzilgan va unda nimalar bolishi kerakligini bir boshidan ko‘rib chiqishni maslahat beraman. bunday qilish uchun figma dizaynga kirganingizda o‘ng tepa burchakda "play" ikonani bosasiz va live previewni ochasiz.
 
-![Figma preview](./img/figma_demo.png)
+![Figma preview](./img/database/figma.png)
 
 live previewda siz butun saytni brauzerda interaktiv kirishilishda ko‘ra olasiz. U yerdagi tugmalarni bosib ekranlarni ko‘rinish ketma-ketligi va qaysi holatda nima ko‘rsatishi kerakligini bilib olasiz. bu yo‘l bilan siz kod yozishdan avval sahifalar ketma-ketligini, holatlarini o‘rganib chiqib, so‘ng reja tuzib olsangiz, keyin kutilmagan holatlarda uni o‘zgartirib o‘tirmaslikka va to‘g‘ri arxitektura tanlashga yordam beradi.
 

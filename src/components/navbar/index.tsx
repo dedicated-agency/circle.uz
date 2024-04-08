@@ -6,7 +6,7 @@ interface Props {
 }
 export default function Navbar({ isBlack }: Props) {
   function handleGetStart() {
-    window.location.pathname = "/docs/intro";
+    window.location.pathname = "/frontend/intro";
   }
   return (
     <nav
