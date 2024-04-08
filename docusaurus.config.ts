@@ -56,6 +56,7 @@ const config: Config = {
         //   // Remove this to remove the "edit this page" links.
         //   editUrl: "https://gitlab.com/dedicated-group/rivoj-platform",
         // },
+        
         theme: {
           customCss: "./src/css/custom.css",
         },
